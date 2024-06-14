@@ -11,7 +11,7 @@ Version: 1.0
 -----------------------------------------------------------------------------------
 
 CSS INDEX
-=================== 
+===================
 01. common
 02. button
 03. page
@@ -28,15 +28,16 @@ CSS INDEX
 14. sidebar
 15. dark theme
 
-******************************************************* 
+*******************************************************
 *************************************************************** */
 /*
 ************
 *************************
 01. common
-******************************************************* 
+*******************************************************
 *************************************************************** */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@300;400;500;600;700;800;900&display=swap");
+
 :root {
   --common-white: #ffffff;
   --common-black: #000;
@@ -237,6 +238,7 @@ input::-webkit-input-placeholder {
   -o-transition: all 0.5s linear 0s;
   transition: all 0.5s linear 0s;
 }
+
 input:-moz-placeholder {
   color: var(--clr-body-text);
   font-size: 16px;
@@ -247,6 +249,7 @@ input:-moz-placeholder {
   -o-transition: all 0.5s linear 0s;
   transition: all 0.5s linear 0s;
 }
+
 input::-moz-placeholder {
   color: var(--clr-body-text);
   font-size: 16px;
@@ -257,6 +260,7 @@ input::-moz-placeholder {
   -o-transition: all 0.5s linear 0s;
   transition: all 0.5s linear 0s;
 }
+
 input:-ms-input-placeholder {
   color: var(--clr-body-text);
   font-size: 16px;
@@ -278,6 +282,7 @@ textarea::-webkit-input-placeholder {
   -o-transition: all 0.5s linear 0s;
   transition: all 0.5s linear 0s;
 }
+
 textarea:-moz-placeholder {
   color: var(--clr-body-text);
   font-size: 16px;
@@ -288,6 +293,7 @@ textarea:-moz-placeholder {
   -o-transition: all 0.5s linear 0s;
   transition: all 0.5s linear 0s;
 }
+
 textarea::-moz-placeholder {
   color: var(--clr-body-text);
   font-size: 16px;
@@ -298,6 +304,7 @@ textarea::-moz-placeholder {
   -o-transition: all 0.5s linear 0s;
   transition: all 0.5s linear 0s;
 }
+
 textarea:-ms-input-placeholder {
   color: var(--clr-body-text);
   font-size: 16px;
@@ -326,6 +333,7 @@ textarea:focus::placeholder {
   background-repeat: no-repeat;
   background-position: center center;
 }
+
 [data-overlay]::before {
   position: absolute;
   left: 0;
@@ -1704,6 +1712,7 @@ textarea:focus::placeholder {
 .row {
   --bs-gutter-x: 30px;
 }
+
 .row.g-0 {
   --bs-gutter-x: 0;
 }
@@ -1718,21 +1727,27 @@ textarea:focus::placeholder {
 .bg-cyan i {
   color: #8774ff;
 }
+
 .bg-rose i {
   color: #ff75d8;
 }
+
 .bg-yellow i {
   color: #dda10c;
 }
+
 .bg-cyan {
   background-color: var(--cyan);
 }
+
 .bg-rose {
   background-color: var(--rose);
 }
+
 .bg-yellow {
   background-color: var(--yellow);
 }
+
 .bg-catkrill {
   background-color: var(--catkrill);
 }
@@ -1801,7 +1816,7 @@ textarea:focus::placeholder {
 ************
 *************************
 02. button
-******************************************************* 
+*******************************************************
 *************************************************************** */
 .btn-1 {
   display: inline-block;
@@ -1815,18 +1830,22 @@ textarea:focus::placeholder {
   border-radius: 10px;
   border: 1px solid transparent;
 }
+
 .btn-1 .icon {
   display: inline-block;
   margin-right: 5px;
 }
+
 .btn-1 .icon svg * {
   transition: 0.3s;
 }
+
 .btn-1:hover {
   background-color: var(--light-white);
   border: 1px solid var(--theme-primary);
   color: var(--common-black);
 }
+
 .btn-1:hover .icon svg * {
   fill: var(--common-black);
 }
@@ -1844,13 +1863,16 @@ textarea:focus::placeholder {
   border: 1px solid transparent;
   transition: 0.3s;
 }
+
 .btn-2 .icon {
   display: inline-block;
   margin-right: 5px;
 }
+
 .btn-2 .icon svg * {
   transition: 0.3s;
 }
+
 .btn-2:hover,
 .btn-2:focus {
   background: linear-gradient(80deg, #fa5252 0%, #e12a72 100%);
@@ -1858,6 +1880,7 @@ textarea:focus::placeholder {
   color: var(--light-white);
   transform: translateY(-2px);
 }
+
 .btn-2:hover .icon svg * {
   fill: var(--light-white);
 }
@@ -1873,6 +1896,7 @@ textarea:focus::placeholder {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
   margin-right: 10px;
 }
+
 .dark-btn:hover {
   background-color: var(--theme-secondary);
 }
@@ -1888,37 +1912,47 @@ textarea:focus::placeholder {
   cursor: pointer;
   transition: 0.3s;
 }
+
 .home-1 .dark-btn .fa-sun {
   display: none;
 }
+
 .dark-theme .home-1 .dark-btn .fa-sun {
   display: block;
   color: #fff;
 }
+
 .dark-theme .home-1 .dark-btn .fa-moon {
   display: none;
 }
+
 .home-1 .dark-btn:hover {
   background-color: #1b74e4;
   color: #fff;
 }
+
 .home-3 .dark-btn .fa-sun {
   display: none;
 }
+
 .dark-theme .home-3 .dark-btn .fa-sun {
   display: block;
   color: #fff;
 }
+
 .dark-theme .home-3 .dark-btn .fa-moon {
   display: none;
 }
+
 .home-3 .dark-btn:hover {
   background-color: var(--theme-secondary);
   color: #fff;
 }
+
 .home-3 .bostami-section-title-wrap .section-title i {
   color: var(--theme-secondary);
 }
+
 .dark-btn.dark-btn-2 {
   width: 45px;
   height: 45px;
@@ -1930,22 +1964,27 @@ textarea:focus::placeholder {
   transition: 0.3s;
   font-size: 22px;
 }
+
 .dark-theme .dark-btn.dark-btn-2,
 .dark-theme .dark-btn.dark-btn {
   background: rgba(255, 255, 255, 0.2);
 }
+
 .page-wrapper-2 .dark-btn:hover {
   background: rgb(250, 82, 82);
   background: linear-gradient(97deg, rgb(250, 82, 82) 0%, rgb(221, 36, 118) 100%);
   color: #fff;
 }
+
 .page-wrapper-2 .dark-btn .fa-sun {
   display: none;
 }
+
 .dark-theme .page-wrapper-2 .dark-btn .fa-sun {
   display: block;
   color: #fff;
 }
+
 .dark-theme .page-wrapper-2 .dark-btn .fa-moon {
   display: none;
 }
@@ -1962,6 +2001,7 @@ textarea:focus::placeholder {
   border-radius: 12px;
   background-color: var(--light-white-2);
 }
+
 .form-btn:hover {
   background-color: var(--theme-primary);
   border-color: var(--theme-primary);
@@ -1977,14 +2017,16 @@ textarea:focus::placeholder {
   background: linear-gradient(97deg, rgb(250, 82, 82) 0%, rgb(221, 36, 118) 100%);
   border-color: transparent;
 }
+
 .page-wrapper-2 .bostami-section-title-wrap .section-title i {
   color: var(--theme-secondary);
 }
+
 /*
 ************
 *************************
 03. page
-******************************************************* 
+*******************************************************
 *************************************************************** */
 .page-wrapper {
   height: 100vh;
@@ -1998,14 +2040,16 @@ textarea:focus::placeholder {
   padding-top: 240px;
   padding-bottom: 120px;
 }
+
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .page-wrapper {
     padding-top: 120px;
   }
 }
+
 @media only screen and (min-width: 992px) and (max-width: 1199px),
-  only screen and (min-width: 768px) and (max-width: 991px),
-  (max-width: 767px) {
+only screen and (min-width: 768px) and (max-width: 991px),
+(max-width: 767px) {
   .page-wrapper {
     padding-top: 120px;
   }
@@ -2031,23 +2075,27 @@ textarea:focus::placeholder {
     Roboto Slab,
     serif;
 }
+
 @media only screen and (min-width: 1200px) and (max-width: 1399px),
-  lg,
-  only screen and (min-width: 768px) and (max-width: 991px) {
+lg,
+only screen and (min-width: 768px) and (max-width: 991px) {
   .page-title {
     font-size: 36px;
   }
 }
+
 @media (max-width: 767px) {
   .page-title {
     font-size: 32px;
   }
 }
+
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .page-title {
     font-size: 34px;
   }
 }
+
 .page-title::after {
   content: "";
   position: absolute;
@@ -2060,11 +2108,13 @@ textarea:focus::placeholder {
   border-radius: 5px;
   margin-bottom: 30px;
 }
+
 @media (max-width: 767px) {
   .page-title::after {
     width: 70%;
   }
 }
+
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .page-title::after {
     width: 100%;
@@ -2080,16 +2130,18 @@ textarea:focus::placeholder {
   margin-bottom: 0;
   font-weight: 500;
 }
+
 .bostami-section-title-wrap .section-title i {
   font-size: 30px;
   margin-right: 10px;
   margin-top: -5px;
   color: var(--theme-primary);
 }
+
 @media only screen and (min-width: 1200px) and (max-width: 1399px),
-  only screen and (min-width: 992px) and (max-width: 1199px),
-  md,
-  (max-width: 767px) {
+only screen and (min-width: 992px) and (max-width: 1199px),
+md,
+(max-width: 767px) {
   .bostami-section-title-wrap .section-title {
     font-size: 24px;
   }
@@ -2100,16 +2152,19 @@ textarea:focus::placeholder {
     padding-left: 40px;
   }
 }
+
 @media (max-width: 767px) {
   .section-wrapper:is(.pl-60) {
     padding-left: 20px;
   }
 }
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .section-wrapper:is(.pr-60) {
     padding-right: 40px;
   }
 }
+
 @media (max-width: 767px) {
   .section-wrapper:is(.pr-60) {
     padding-right: 20px;
@@ -2120,57 +2175,69 @@ textarea:focus::placeholder {
   background: #fff;
   border-radius: 20px;
 }
+
 @media only screen and (min-width: 992px) and (max-width: 1199px),
-  only screen and (min-width: 768px) and (max-width: 991px) {
+only screen and (min-width: 768px) and (max-width: 991px) {
   .bostami-page-area .bostami-page-wrap:is(.pl-80) {
     padding-left: 40px;
   }
 }
+
 @media (max-width: 767px) {
   .bostami-page-area .bostami-page-wrap:is(.pl-80) {
     padding-left: 20px;
   }
 }
+
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .bostami-page-area .bostami-page-wrap:is(.pl-80) {
     padding-left: 30px;
   }
 }
+
 @media only screen and (min-width: 992px) and (max-width: 1199px),
-  only screen and (min-width: 768px) and (max-width: 991px) {
+only screen and (min-width: 768px) and (max-width: 991px) {
   .bostami-page-area .bostami-page-wrap:is(.pr-80) {
     padding-right: 40px;
   }
 }
+
 @media (max-width: 767px) {
   .bostami-page-area .bostami-page-wrap:is(.pr-80) {
     padding-right: 20px;
   }
 }
+
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .bostami-page-area .bostami-page-wrap:is(.pr-80) {
     padding-right: 30px;
   }
 }
+
 .bostami-page-area .bostami-parsonal-info-contact .title {
   font-weight: 500;
 }
+
 .bostami-page-area .section-title {
   font-weight: 500;
 }
+
 .bostami-page-area .bostami-parsonal-info-title {
   font-weight: 500;
   margin-bottom: 11px;
 }
+
 .bostami-page-area .page-title::after {
   background: rgb(250, 82, 82);
   background: linear-gradient(97deg, rgb(250, 82, 82) 0%, rgb(221, 36, 118) 100%);
 }
+
 @media (max-width: 767px) {
   .bostami-page-area .page-title::after {
     width: 40%;
   }
 }
+
 .bostami-page-area .bostami-parsonal-info-img {
   width: 100%;
   height: 400px;
@@ -2178,6 +2245,7 @@ textarea:focus::placeholder {
   border-radius: 30px;
   margin-bottom: 80px;
 }
+
 .bostami-page-area .bostami-parsonal-info-contact {
   background: transparent;
   padding: 20px 0px;
@@ -2206,14 +2274,16 @@ textarea:focus::placeholder {
   margin-bottom: 240px;
   background-color: transparent;
 }
+
 @media only screen and (min-width: 1200px) and (max-width: 1399px),
-  only screen and (min-width: 992px) and (max-width: 1199px),
-  only screen and (min-width: 768px) and (max-width: 991px),
-  (max-width: 767px) {
+only screen and (min-width: 992px) and (max-width: 1199px),
+only screen and (min-width: 768px) and (max-width: 991px),
+(max-width: 767px) {
   .home-3 .bostami-header-area {
     margin-bottom: 40px;
   }
 }
+
 .home-3 .bostami-header-area .bostami-header-wrap {
   background-color: transparent;
 }
@@ -2227,7 +2297,7 @@ textarea:focus::placeholder {
 ************
 *************************
 04. header
-******************************************************* 
+*******************************************************
 *************************************************************** */
 .bostami-header-wrap {
   background: var(--light-white);
@@ -2240,6 +2310,7 @@ textarea:focus::placeholder {
   align-items: center;
   justify-content: end;
 }
+
 .bostami-header-menu-btn .menu-btn {
   position: relative;
   display: inline-flex;
@@ -2254,6 +2325,7 @@ textarea:focus::placeholder {
   transition: 1s;
   overflow: hidden;
 }
+
 .bostami-header-menu-btn .menu-btn:hover {
   background: linear-gradient(180deg, #1b74e4 0%, #1b74e4 100%);
 }
@@ -2294,6 +2366,7 @@ textarea:focus::placeholder {
 .mobile-menu-wrap {
   position: relative;
 }
+
 .mobile-menu-wrap .mobile-menu {
   position: absolute;
   top: 0;
@@ -2304,6 +2377,7 @@ textarea:focus::placeholder {
   z-index: 5;
   transition: 0.5s;
 }
+
 .mobile-menu-wrap .mobile-menu .mean-bar {
   background-color: var(--common-white);
   border-radius: 12px;
@@ -2311,10 +2385,12 @@ textarea:focus::placeholder {
   padding-top: 20px;
   padding-bottom: 20px;
 }
+
 .mobile-menu-wrap .mobile-menu .mean-bar .mean-nav {
   margin-top: 0;
   background-color: var(--common-white);
 }
+
 .mobile-menu-wrap .mobile-menu .mean-bar .mean-nav ul li a {
   border: none;
   font-size: 13px;
@@ -2323,32 +2399,40 @@ textarea:focus::placeholder {
   color: var(--body-text);
   padding: 5px 70px;
 }
+
 @media (max-width: 767px) {
   .mobile-menu-wrap .mobile-menu .mean-bar .mean-nav ul li a {
     padding: 5px 0px;
   }
 }
+
 .mobile-menu-wrap .mobile-menu .mean-bar .mean-nav ul li a span {
   display: inline-block;
 }
+
 .mobile-menu-wrap .mobile-menu .mean-bar .mean-nav ul li a span svg {
   width: 16px !important;
   margin-right: 8px;
 }
+
 .mobile-menu-wrap .mobile-menu .mean-bar .mean-nav ul li a:hover {
   color: var(--theme-secondary);
 }
+
 .mobile-menu-wrap .mobile-menu .mean-bar .mean-nav ul li a:hover span svg * {
   fill: var(--theme-secondary);
 }
+
 @media (max-width: 767px) {
   .mobile-menu-wrap .mobile-menu .mean-bar .mean-nav ul li {
     padding: 0px 40px;
   }
 }
+
 .mobile-menu-wrap .mobile-menu .mean-bar .mean-nav ul li:is(.active) a {
   color: var(--theme-secondary);
 }
+
 .mobile-menu-wrap .mobile-menu .mean-bar .mean-nav ul li:is(.active) a span svg * {
   fill: var(--theme-secondary);
 }
@@ -2368,9 +2452,11 @@ textarea:focus::placeholder {
   text-align: center;
   transition: 0.3s;
 }
+
 .bastami-main-menu ul li:not(:last-child) {
   margin-bottom: 20px;
 }
+
 .bastami-main-menu ul li a {
   display: block;
   font-size: 13px;
@@ -2378,37 +2464,48 @@ textarea:focus::placeholder {
   font-weight: 500;
   line-height: 1;
 }
+
 .bastami-main-menu ul li a i {
   font-size: 24px;
 }
+
 .bastami-main-menu ul li a span {
   display: block;
   margin-bottom: 8px;
 }
+
 .bastami-main-menu ul li:is(.active) {
   background-color: var(--theme-primary);
 }
+
 .bastami-main-menu ul li:is(.active) a {
   color: var(--common-white);
 }
+
 .bastami-main-menu ul li:is(.active) a span svg * {
   fill: var(--common-white);
 }
+
 .bastami-main-menu ul li:is(.active) a span img {
   filter: brightness(5);
 }
+
 .bastami-main-menu ul li:hover {
   background-color: var(--theme-primary);
 }
+
 .bastami-main-menu ul li:hover a {
   color: var(--common-white);
 }
+
 .bastami-main-menu ul li:hover a span svg * {
   fill: var(--common-white);
 }
+
 .bastami-main-menu ul li:hover a span img {
   filter: brightness(5);
 }
+
 .dark-theme .bastami-main-menu ul li a span img {
   filter: invert(0.8) !important;
 }
@@ -2420,12 +2517,15 @@ textarea:focus::placeholder {
 .bastami-main-menu ul li a span img {
   width: 20px;
 }
+
 .bastami-main-menu ul li.active:first-child a span img {
   filter: invert(1) !important;
 }
+
 .bastami-main-menu ul li:first-child:hover a span img {
   filter: invert(1);
 }
+
 .header-right-flex {
   display: flex;
   justify-content: right;
@@ -2435,6 +2535,7 @@ textarea:focus::placeholder {
 .main-style-2 {
   background-color: transparent;
 }
+
 .main-style-2 .bostami-main-menu-wrap {
   width: unset;
   background: transparent;
@@ -2444,12 +2545,15 @@ textarea:focus::placeholder {
   top: unset;
   display: inline-block;
 }
+
 .main-style-2 .bostami-main-menu-wrap .bastami-main-menu {
   display: inline-block;
 }
+
 .main-style-2 .bostami-main-menu-wrap .bastami-main-menu ul {
   display: inline-block;
 }
+
 .main-style-2 .bostami-main-menu-wrap .bastami-main-menu ul li {
   display: inline-block;
   background-color: var(--light-white);
@@ -2460,14 +2564,17 @@ textarea:focus::placeholder {
   transition: 0.3s;
   margin-bottom: 0;
 }
+
 .main-style-2 .bostami-main-menu-wrap .bastami-main-menu ul li:not(:first-child) {
   margin-left: 16px;
 }
+
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .main-style-2 .bostami-main-menu-wrap .bastami-main-menu ul li:not(:first-child) {
     margin-left: 5px;
   }
 }
+
 .main-style-2 .bostami-main-menu-wrap .bastami-main-menu ul li a {
   background: #fff;
   border-radius: 8px;
@@ -2477,23 +2584,28 @@ textarea:focus::placeholder {
   display: flex;
   align-items: center;
 }
+
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .main-style-2 .bostami-main-menu-wrap .bastami-main-menu ul li a {
     padding: 0px 10px;
   }
 }
+
 .main-style-2 .bostami-main-menu-wrap .bastami-main-menu ul li a:hover {
   background: rgb(250, 82, 82);
   background: linear-gradient(97deg, rgb(250, 82, 82) 0%, rgb(221, 36, 118) 100%);
 }
+
 .main-style-2 .bostami-main-menu-wrap .bastami-main-menu ul li a span {
   display: inline-block;
   margin-bottom: 0;
   margin-right: 8px;
 }
+
 .main-style-2 .bostami-main-menu-wrap .bastami-main-menu ul li a span i {
   font-size: 20px;
 }
+
 .main-style-2 .bostami-main-menu-wrap .bastami-main-menu ul li:is(.active) a {
   background: rgb(250, 82, 82);
   background: linear-gradient(97deg, rgb(250, 82, 82) 0%, rgb(221, 36, 118) 100%);
@@ -2508,7 +2620,9 @@ textarea:focus::placeholder {
   height: 45px;
   margin-left: 20px;
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+
+@media only screen and (min-width: 768px) and (max-width: 991px),
+(max-width: 767px) {
   .menu-btn.menu-btn-2 {
     margin-bottom: -8px;
   }
@@ -2517,49 +2631,62 @@ textarea:focus::placeholder {
 .page-wrapper.page-wrapper-2 .bostami-header-logo .site-logo img {
   width: 150px;
 }
+
 @media (max-width: 767px) {
   .page-wrapper.page-wrapper-2 .bostami-header-logo .site-logo img {
     width: 110px;
   }
 }
+
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .page-wrapper.page-wrapper-2 .bostami-header-logo .site-logo img {
     width: 150px;
   }
 }
+
 .dark-theme .page-wrapper.page-wrapper-2 {
   background-image: url(../img/bg/page-bg-dark-2.jpg) !important;
 }
+
 .home-3 .text-right {
   text-align: right;
   margin-bottom: 40px;
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+
+@media only screen and (min-width: 768px) and (max-width: 991px),
+(max-width: 767px) {
   .home-3 .text-right {
     margin-bottom: 0;
   }
 }
+
 .home-3 .bostami-main-menu-wrap {
   width: unset;
   position: unset;
   display: inline-block;
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+
+@media only screen and (min-width: 768px) and (max-width: 991px),
+(max-width: 767px) {
   .home-3 .bostami-main-menu-wrap {
     display: none;
   }
 }
+
 .home-3 .bastami-main-menu ul li {
   display: inline-flex;
   margin-bottom: 0;
 }
+
 .home-3 .bastami-main-menu ul li:not(:first-child) {
   margin-left: 16px;
 }
+
 .home-3 .bastami-main-menu ul li:hover,
 .home-3 .bastami-main-menu ul li:focus {
   background: linear-gradient(97deg, rgb(250, 82, 82) 0%, rgb(221, 36, 118) 100%);
 }
+
 .home-3 .bastami-main-menu ul li.active {
   background: linear-gradient(97deg, rgb(250, 82, 82) 0%, rgb(221, 36, 118) 100%);
 }
@@ -2572,6 +2699,7 @@ textarea:focus::placeholder {
   width: 40px;
   height: 40px;
 }
+
 .home-3 .menu-btn.active {
   background: linear-gradient(97deg, rgb(250, 82, 82) 0%, rgb(221, 36, 118) 100%);
 }
@@ -2579,63 +2707,76 @@ textarea:focus::placeholder {
 .home-1 .bostami-header-area {
   margin-bottom: 205px;
 }
+
 @media only screen and (min-width: 1200px) and (max-width: 1399px),
-  only screen and (min-width: 992px) and (max-width: 1199px),
-  only screen and (min-width: 768px) and (max-width: 991px),
-  (max-width: 767px) {
+only screen and (min-width: 992px) and (max-width: 1199px),
+only screen and (min-width: 768px) and (max-width: 991px),
+(max-width: 767px) {
   .home-1 .bostami-header-area {
     margin-bottom: 50px;
   }
 }
+
 .home-1 .bostami-header-wrap {
   margin-left: -112px;
   margin-right: -70px;
   background-color: transparent;
 }
+
 @media only screen and (min-width: 1400px) and (max-width: 1599px) {
   .home-1 .bostami-header-wrap {
     margin-left: -50px;
     margin-right: -40px;
   }
 }
+
 @media only screen and (min-width: 1200px) and (max-width: 1399px),
-  only screen and (min-width: 992px) and (max-width: 1199px),
-  only screen and (min-width: 768px) and (max-width: 991px),
-  (max-width: 767px) {
+only screen and (min-width: 992px) and (max-width: 1199px),
+only screen and (min-width: 768px) and (max-width: 991px),
+(max-width: 767px) {
   .home-1 .bostami-header-wrap {
     margin-left: 0px;
     margin-right: 0px;
   }
 }
+
 .home-1 .bostami-header-menu-btn .menu-btn {
   width: 40px;
   height: 40px;
 }
+
 @media (min-width: 1800px),
-  only screen and (min-width: 1600px) and (max-width: 1799px),
-  only screen and (min-width: 1400px) and (max-width: 1599px) {
+only screen and (min-width: 1600px) and (max-width: 1799px),
+only screen and (min-width: 1400px) and (max-width: 1599px) {
   .home-1 .bostami-header-menu-btn .menu-btn {
     display: none;
   }
 }
+
 .home-1 .bostami-header-menu-btn .menu-btn {
   background: #1b74e4;
 }
+
 .home-1 .mobile-menu-wrap .mobile-menu .mean-bar .mean-nav ul li:is(.active) a {
   color: #1b74e4;
 }
+
 .home-1 .mobile-menu-wrap .mobile-menu .mean-bar .mean-nav ul li:hover a {
   color: #1b74e4;
 }
+
 .home-1 .mobile-menu-wrap .mobile-menu .mean-bar .mean-nav ul li:hover a span img {
   filter: saturate(20.5);
 }
+
 .home-1 .mobile-menu-wrap .mobile-menu .mean-bar .mean-nav ul li:is(.active) a span img {
   filter: saturate(20.5);
 }
+
 .home-1 .mobile-menu-wrap .mobile-menu .mean-bar .mean-nav ul li a:hover span svg * {
   fill: #1b74e4;
 }
+
 .home-1 .mobile-menu-wrap .mobile-menu .mean-bar .mean-nav ul li:is(.active) a span svg * {
   fill: #1b74e4;
 }
@@ -2644,7 +2785,7 @@ textarea:focus::placeholder {
 ************
 *************************
 05. parsonal info
-******************************************************* 
+*******************************************************
 *************************************************************** */
 .bostami-parsonal-info-area {
   width: 400px;
@@ -2656,12 +2797,14 @@ textarea:focus::placeholder {
   position: sticky;
   top: 100px;
 }
+
 @media only screen and (min-width: 1400px) and (max-width: 1599px) {
   .bostami-parsonal-info-area {
     width: 340px;
     margin-left: -40px;
   }
 }
+
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .bostami-parsonal-info-area {
     width: 100%;
@@ -2670,8 +2813,9 @@ textarea:focus::placeholder {
     top: -40px;
   }
 }
+
 @media only screen and (min-width: 992px) and (max-width: 1199px),
-  only screen and (min-width: 768px) and (max-width: 991px) {
+only screen and (min-width: 768px) and (max-width: 991px) {
   .bostami-parsonal-info-area {
     width: 100%;
     margin-left: 0px;
@@ -2679,6 +2823,7 @@ textarea:focus::placeholder {
     top: -40px;
   }
 }
+
 @media (max-width: 767px) {
   .bostami-parsonal-info-area {
     width: 100%;
@@ -2687,11 +2832,13 @@ textarea:focus::placeholder {
     padding: 40px 20px;
   }
 }
+
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .bostami-parsonal-info-area {
     padding: 40px 30px;
   }
 }
+
 .bostami-parsonal-info-img {
   width: 240px;
   height: 240px;
@@ -2701,6 +2848,7 @@ textarea:focus::placeholder {
   margin-bottom: 21px;
   margin-top: -180px;
 }
+
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .bostami-parsonal-info-img {
     width: 210px;
@@ -2708,18 +2856,21 @@ textarea:focus::placeholder {
     margin-top: 0px;
   }
 }
+
 @media only screen and (min-width: 992px) and (max-width: 1199px),
-  only screen and (min-width: 768px) and (max-width: 991px),
-  (max-width: 767px) {
+only screen and (min-width: 768px) and (max-width: 991px),
+(max-width: 767px) {
   .bostami-parsonal-info-img {
     margin-top: 0px;
   }
 }
+
 .bostami-parsonal-info-img img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
+
 .bostami-parsonal-info-name {
   font-size: 26px;
   text-transform: capitalize;
@@ -2728,22 +2879,28 @@ textarea:focus::placeholder {
   font-family: "Roboto Slab", serif;
   margin-bottom: 8px;
 }
+
 .btn-2.circle {
   border-radius: 30px;
 }
+
 .dark-theme .btn-2.circle {
   color: #fff;
 }
+
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .bostami-parsonal-info-name {
     font-size: 20px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+
+@media only screen and (min-width: 768px) and (max-width: 991px),
+(max-width: 767px) {
   .bostami-parsonal-info-name {
     font-size: 22px;
   }
 }
+
 .bostami-parsonal-info-bio {
   font-size: 14px;
   display: inline-block;
@@ -2755,17 +2912,20 @@ textarea:focus::placeholder {
   border-radius: 5px;
   padding: 4px 20px;
 }
+
 @media only screen and (min-width: 1200px) and (max-width: 1399px),
-  only screen and (min-width: 768px) and (max-width: 991px),
-  (max-width: 767px) {
+only screen and (min-width: 768px) and (max-width: 991px),
+(max-width: 767px) {
   .bostami-parsonal-info-bio {
     font-size: 14px;
   }
 }
+
 .bostami-parsonal-info-social-link li {
   display: inline-block;
   margin: 0 4px;
 }
+
 .bostami-parsonal-info-social-link li a {
   display: inline-block;
   width: 40px;
@@ -2776,30 +2936,38 @@ textarea:focus::placeholder {
   line-height: 40px;
   font-size: 18px;
 }
+
 .bostami-parsonal-info-social-link .facebook {
   color: #1773ea;
 }
+
 .bostami-parsonal-info-social-link .facebook:hover {
   background: #1773ea;
   color: #fff;
 }
+
 .bostami-parsonal-info-social-link .twitter {
   color: #1c9cea;
 }
+
 .bostami-parsonal-info-social-link .twitter:hover {
   background: #1773ea;
   color: #fff;
 }
+
 .bostami-parsonal-info-social-link .instagram {
   color: #e12a72;
 }
+
 .bostami-parsonal-info-social-link .instagram:hover {
   background: #e12a72;
   color: #fff;
 }
+
 .bostami-parsonal-info-social-link .linkedin {
   color: #144679;
 }
+
 .bostami-parsonal-info-social-link .linkedin:hover {
   background: #144679;
   color: #fff;
@@ -2808,27 +2976,32 @@ textarea:focus::placeholder {
 .bostami-parsonal-info-social-link li a:hover svg * {
   fill: var(--common-white);
 }
+
 .bostami-parsonal-info-contact {
   background-color: var(--light-white);
   border-radius: 16px;
   text-align: left;
   padding: 20px 30px;
 }
+
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .bostami-parsonal-info-contact {
     padding: 20px 15px;
   }
 }
+
 @media (max-width: 767px) {
   .bostami-parsonal-info-contact {
     padding: 20px 15px;
   }
 }
+
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .bostami-parsonal-info-contact {
     padding: 20px 30px;
   }
 }
+
 .bostami-parsonal-info-contact-item {
   display: flex;
   align-items: center;
@@ -2836,9 +3009,11 @@ textarea:focus::placeholder {
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
 .bostami-parsonal-info-contact-item:not(:first-child) {
   border-top: 1px solid #e3e3e3;
 }
+
 .bostami-parsonal-info-contact-item .icon {
   flex: 0 0 auto;
   display: inline-block;
@@ -2851,6 +3026,7 @@ textarea:focus::placeholder {
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.08);
   transition: 0.3s;
 }
+
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .bostami-parsonal-info-contact-item .icon {
     width: 35px;
@@ -2858,30 +3034,39 @@ textarea:focus::placeholder {
     line-height: 35px;
   }
 }
+
 .bostami-parsonal-info-contact-item .icon svg * {
   transition: 0.3s;
 }
+
 .bostami-parsonal-info-contact-item i {
   font-size: 22px;
 }
+
 .bostami-parsonal-info-contact-item.phone i {
   color: #e93b81;
 }
+
 .bostami-parsonal-info-contact-item.email i {
   color: #6ab5b9;
 }
+
 .bostami-parsonal-info-contact-item.location i {
   color: #fd7590;
 }
+
 .bostami-parsonal-info-contact-item.calendar i {
   color: #c17ceb;
 }
+
 .bostami-parsonal-info-contact-item .icon:hover svg * {
   fill: var(--common-white);
 }
+
 .bostami-parsonal-info-contact-item .text {
   display: inline-block;
 }
+
 .bostami-parsonal-info-contact-item .text span {
   display: block;
   font-size: 12px;
@@ -2890,6 +3075,7 @@ textarea:focus::placeholder {
   font-weight: 400;
   margin-bottom: 3px;
 }
+
 .bostami-parsonal-info-contact-item .text p {
   font-size: 16px;
   line-height: 24px;
@@ -2898,6 +3084,7 @@ textarea:focus::placeholder {
   text-transform: capitalize;
   margin-bottom: 0;
 }
+
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .bostami-parsonal-info-contact-item .text p {
     font-size: 14px;
@@ -2910,11 +3097,13 @@ textarea:focus::placeholder {
   margin-left: 0;
   position: unset;
 }
+
 @media (min-width: 1920px) {
   .bostami-parsonal-info-area.bostami-parsonal-info-2-area {
     margin-top: 50px;
   }
 }
+
 .bostami-parsonal-info-area.bostami-parsonal-info-2-area .bostami-parsonal-info-img {
   width: 280px;
   height: 280px;
@@ -2924,16 +3113,20 @@ textarea:focus::placeholder {
   margin-bottom: 21px;
   margin-top: 0;
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+
+@media only screen and (min-width: 768px) and (max-width: 991px),
+(max-width: 767px) {
   .bostami-parsonal-info-area.bostami-parsonal-info-2-area .bostami-parsonal-info-img {
     width: 240px;
     height: 240px;
   }
 }
+
 .bostami-parsonal-info-area.bostami-parsonal-info-2-area .bostami-parsonal-info-bio {
   background: transparent;
   color: #7b7b7b;
 }
+
 .bostami-parsonal-info-area.bostami-parsonal-info-2-area .bostami-parsonal-info-social-link li a:hover {
   background: linear-gradient(97deg, rgb(250, 82, 82) 0%, rgb(221, 36, 118) 100%);
 }
@@ -2945,9 +3138,11 @@ textarea:focus::placeholder {
   position: unset;
   padding: 0;
 }
+
 .bostami-parsonal-info-area.about-2-page .bostami-page-title-wrap {
   text-align: left;
 }
+
 .bostami-parsonal-info-area.about-2-page .bostami-parsonal-info-img {
   width: 100%;
   height: 400px;
@@ -2963,19 +3158,23 @@ textarea:focus::placeholder {
   width: 100%;
   margin-left: 0;
 }
+
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .home-3 .bostami-parsonal-info-contact {
     padding: 20px 10px;
   }
 }
+
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .home-3 .bostami-parsonal-info-contact-item .text p {
     font-size: 14px;
   }
 }
+
 .home-3 .bostami-parsonal-info-social-link li a:hover {
   background: linear-gradient(97deg, rgb(250, 82, 82) 0%, rgb(221, 36, 118) 100%);
 }
+
 .home-3 .bostami-parsonal-info-contact-item .icon:hover {
   background: linear-gradient(97deg, rgb(250, 82, 82) 0%, rgb(221, 36, 118) 100%);
 }
@@ -2984,13 +3183,14 @@ textarea:focus::placeholder {
 ************
 *************************
 06. client
-******************************************************* 
+*******************************************************
 *************************************************************** */
 .bostami-client {
   padding-top: 40px;
   padding-bottom: 70px;
   background-color: var(--light-white-2);
 }
+
 .bostami-client-slider-logo {
   padding: 0px 15px;
   height: 62px;
@@ -3004,6 +3204,7 @@ textarea:focus::placeholder {
   position: sticky;
   top: -45px;
 }
+
 @media only screen and (min-width: 1400px) and (max-width: 1599px) {
   .bostami-main-menu-wrap {
     width: 120px;
@@ -3019,7 +3220,7 @@ textarea:focus::placeholder {
 ************
 *************************
 07. what do
-******************************************************* 
+*******************************************************
 *************************************************************** */
 .bostami-what-do-item {
   border-radius: 12px;
@@ -3029,53 +3230,65 @@ textarea:focus::placeholder {
   padding-bottom: 15px;
   margin-bottom: 30px;
 }
+
 .bostami-what-do-item i {
   font-size: 35px;
 }
+
 .bostami-what-do-item.bg-prink i {
   color: #d566ff;
 }
+
 .bostami-what-do-item.bg-catkrill i {
   color: #dda10c;
 }
+
 .bostami-what-do-item.bg-catkrill i {
   color: #ff6080;
 }
+
 .bostami-what-do-item.bg-prink.bg-blue i {
   color: #269fff;
 }
+
 @media (max-width: 767px) {
   .bostami-what-do-item {
     flex-wrap: wrap;
   }
 }
+
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .bostami-what-do-item {
     flex-wrap: nowrap;
   }
 }
+
 .bostami-what-do-item .text .title {
   margin-bottom: 10px;
   font-size: 20px;
   font-weight: 500;
 }
+
 @media only screen and (min-width: 1200px) and (max-width: 1399px),
-  lg,
-  only screen and (min-width: 768px) and (max-width: 991px) {
+lg,
+only screen and (min-width: 768px) and (max-width: 991px) {
   .bostami-what-do-item .text .title {
     font-size: 22px;
   }
 }
+
 @media (max-width: 767px) {
   .bostami-what-do-item .text .title {
     font-size: 22px;
   }
 }
+
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .bostami-what-do-item .text .title {
     font-size: 24px;
   }
 }
+
 .bostami-what-do-item .text p {
   margin-bottom: 0;
   line-height: 30px;
@@ -3097,6 +3310,7 @@ textarea:focus::placeholder {
     flex-wrap: wrap;
   }
 }
+
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .home-3 .bostami-what-do-item .text .title {
     font-size: 20px;
@@ -3107,9 +3321,10 @@ textarea:focus::placeholder {
 ************
 *************************
 08. resume
-******************************************************* 
+*******************************************************
 *************************************************************** */
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+(max-width: 767px) {
   .bostami-card-wrap {
     margin-bottom: 50px;
   }
@@ -3120,6 +3335,7 @@ textarea:focus::placeholder {
   border-radius: 12px;
   padding-top: 25px;
 }
+
 .bostami-card-item .card-subtitle {
   display: block;
   font-size: 14px;
@@ -3127,15 +3343,18 @@ textarea:focus::placeholder {
   line-height: 1;
   margin-bottom: 9px;
 }
+
 .bostami-card-item .card-title {
   font-size: 18px;
   font-weight: 400;
   color: var(--heading-black);
   margin-bottom: 4px;
 }
+
 .bostami-card-item .card-title span {
   color: var(--body-text);
 }
+
 .bostami-card-item .card-text {
   font-size: 16px;
   font-weight: 400;
@@ -3148,12 +3367,14 @@ textarea:focus::placeholder {
   align-items: center;
   margin-bottom: 7px;
 }
+
 .skill-bar-item .title-wrap .title {
   font-size: 16px;
   font-weight: 400;
   color: var(--body-text);
   margin-bottom: 0;
 }
+
 .skill-bar-item .title-wrap .count {
   display: block;
   font-size: 16px;
@@ -3165,7 +3386,8 @@ textarea:focus::placeholder {
   background-color: var(--light-white-2);
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+(max-width: 767px) {
   .skill-bar-wrap {
     margin-bottom: 50px;
   }
@@ -3216,6 +3438,7 @@ textarea:focus::placeholder {
     padding-right: 20px;
   }
 }
+
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .bostami-resume-page {
     padding-left: 60px;
@@ -3229,6 +3452,7 @@ textarea:focus::placeholder {
     padding-right: 20px;
   }
 }
+
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .section-wrap {
     padding-left: 60px;
@@ -3244,21 +3468,24 @@ textarea:focus::placeholder {
 ************
 *************************
 09. portfolio
-******************************************************* 
+*******************************************************
 *************************************************************** */
 .fillter-btn-wrap {
   text-align: right;
 }
+
 @media (max-width: 767px) {
   .fillter-btn-wrap {
     text-align: left;
   }
 }
+
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .fillter-btn-wrap {
     text-align: right;
   }
 }
+
 .fillter-btn-wrap .fillter-btn {
   font-size: 16px;
   font-weight: 500;
@@ -3267,9 +3494,11 @@ textarea:focus::placeholder {
   padding: 0 18px;
   cursor: pointer;
 }
+
 .fillter-btn-wrap .fillter-btn:hover {
   color: var(--theme-primary);
 }
+
 .fillter-btn-wrap .fillter-btn:is(.is-checked) {
   color: var(--theme-primary);
 }
@@ -3279,6 +3508,7 @@ textarea:focus::placeholder {
   border-radius: 12px;
   padding: 20px;
 }
+
 .fillter-item .img {
   border-radius: 12px;
   overflow: hidden;
@@ -3286,21 +3516,25 @@ textarea:focus::placeholder {
   display: block;
   transition: 0.1s;
 }
+
 .fillter-item:hover img {
   transform: scale(1.1);
 }
+
 .fillter-item .item-subtitle {
   display: block;
   font-size: 12px;
   font-weight: 400;
   text-transform: capitalize;
 }
+
 .fillter-item .item-title {
   font-size: 16px;
   font-weight: 500;
   text-transform: capitalize;
   margin-bottom: 0;
 }
+
 .fillter-item .item-title:hover {
   color: var(--theme-primary);
 }
@@ -3310,15 +3544,17 @@ textarea:focus::placeholder {
   width: 50%;
   padding: 0 10px;
 }
+
 @media (max-width: 767px) {
+
   .isotop-item,
   .grid-sizer {
     width: 100%;
   }
 }
 
-.isotop-item > div,
-.isotop-item > div {
+.isotop-item>div,
+.isotop-item>div {
   margin-bottom: 20px;
 }
 
@@ -3327,6 +3563,7 @@ textarea:focus::placeholder {
   overflow: hidden;
   background-color: rgba(0, 0, 0, 0.4509803922);
 }
+
 .portfolio-modal-box .modal-dialog {
   max-width: 850px;
   height: 90vh;
@@ -3339,34 +3576,41 @@ textarea:focus::placeholder {
   /* Track */
   /* Handle */
 }
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .portfolio-modal-box .modal-dialog {
     max-width: 660px;
   }
 }
+
 @media (max-width: 767px) {
   .portfolio-modal-box .modal-dialog {
     max-width: 95%;
     padding: 10px;
   }
 }
+
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .portfolio-modal-box .modal-dialog {
     max-width: 95%;
     padding: 30px;
   }
 }
+
 .portfolio-modal-box .modal-dialog ::-webkit-scrollbar {
   width: 10px;
 }
+
 .portfolio-modal-box .modal-dialog ::-webkit-scrollbar-track {
   background-color: #e9e3e3;
   border-radius: 10px;
 }
+
 .portfolio-modal-box .modal-dialog ::-webkit-scrollbar-thumb {
   background: #9c9fa1;
   border-radius: 10px;
 }
+
 .portfolio-modal-box .modal-dialog .modal-content {
   overflow-x: hidden;
   overflow-y: scroll;
@@ -3376,6 +3620,7 @@ textarea:focus::placeholder {
   border-radius: 0;
   border: none;
 }
+
 .portfolio-modal-box .modal-dialog .modal-content .modal-header {
   display: inline-block;
   position: fixed;
@@ -3385,53 +3630,62 @@ textarea:focus::placeholder {
   border-bottom: 0;
   padding: 0;
 }
+
 @media (min-width: 1800px) {
   .portfolio-modal-box .modal-dialog .modal-content .modal-header {
     right: 23%;
   }
 }
+
 @media only screen and (min-width: 1600px) and (max-width: 1799px) {
   .portfolio-modal-box .modal-dialog .modal-content .modal-header {
     right: 18%;
     top: 8%;
   }
 }
+
 @media only screen and (min-width: 1400px) and (max-width: 1599px) {
   .portfolio-modal-box .modal-dialog .modal-content .modal-header {
     right: 13%;
     top: 11%;
   }
 }
+
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .portfolio-modal-box .modal-dialog .modal-content .modal-header {
     right: 8%;
     top: 10%;
   }
 }
+
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .portfolio-modal-box .modal-dialog .modal-content .modal-header {
     right: 1%;
     top: 9%;
   }
 }
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .portfolio-modal-box .modal-dialog .modal-content .modal-header {
     right: 1%;
     top: 9%;
   }
 }
+
 @media (max-width: 767px) {
   .portfolio-modal-box .modal-dialog .modal-content .modal-header {
     right: 83%;
     top: 4%;
   }
 }
+
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .portfolio-modal-box .modal-dialog .modal-content .modal-header {
     right: 90%;
     top: 10%;
   }
 }
+
 .portfolio-modal-box .modal-dialog .modal-content .modal-header .close {
   background: transparent;
   border-radius: 50%;
@@ -3444,76 +3698,85 @@ textarea:focus::placeholder {
   line-height: 38px;
   transition: 0.3s;
 }
+
 @media (max-width: 767px) {
   .portfolio-modal-box .modal-dialog .modal-content .modal-header .close {
     border-color: #e12a72;
     color: #e12a72;
   }
 }
+
 .portfolio-modal-box .modal-dialog .modal-content .modal-header .close:hover {
   rotate: 90deg;
   border-color: #e12a72;
   color: #e12a72;
 }
+
 .portfolio-modal-box .modal-dialog .modal-content .modal-body .h1-modal-img {
   border-radius: 15px;
   overflow: hidden;
   margin-bottom: 20px;
 }
+
 .portfolio-modal-box .modal-dialog .modal-content .modal-body .blog-title {
   font-size: 28px;
   text-align: center;
   color: #fa5252;
   margin-bottom: 35px;
 }
+
 @media (max-width: 767px) {
   .portfolio-modal-box .modal-dialog .modal-content .modal-body .blog-title {
     margin-top: 20px;
     font-size: 22px;
   }
 }
+
 .portfolio-modal-box .modal-dialog .modal-content .modal-body .portfolio-modal-table {
   margin-bottom: 20px;
 }
+
 .portfolio-modal-box .modal-dialog .modal-content .modal-body .portfolio-modal-table .portfolio-modal-table-text {
   font-size: 18px;
   font-weight: 400;
 }
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .portfolio-modal-box .modal-dialog .modal-content .modal-body .portfolio-modal-table .portfolio-modal-table-text {
     font-size: 15px;
   }
 }
+
 @media (max-width: 767px) {
   .portfolio-modal-box .modal-dialog .modal-content .modal-body .portfolio-modal-table .portfolio-modal-table-text {
     font-size: 14px;
   }
 }
+
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .portfolio-modal-box .modal-dialog .modal-content .modal-body .portfolio-modal-table .portfolio-modal-table-text {
     font-size: 16px;
   }
 }
+
 .portfolio-modal-box .modal-dialog .modal-content .modal-body .portfolio-modal-table .portfolio-modal-table-text i {
   display: inline-block;
   margin-right: 10px;
 }
+
 .portfolio-modal-box .modal-dialog .modal-content .modal-body .portfolio-modal-table .portfolio-modal-table-text span {
   font-weight: 500;
 }
+
 .portfolio-modal-box .modal-dialog .modal-content .modal-body .portfolio-modal-table .portfolio-modal-table-text a {
   display: inline-block;
   font-weight: 500;
 }
-.portfolio-modal-box
-  .modal-dialog
-  .modal-content
-  .modal-body
-  .portfolio-modal-table
-  .portfolio-modal-table-text
-  a:hover {
+
+.portfolio-modal-box .modal-dialog .modal-content .modal-body .portfolio-modal-table .portfolio-modal-table-text a:hover {
   color: #fa5252;
 }
+
 .portfolio-modal-box .modal-dialog .modal-content .modal-body .h1-modal-paragraph {
   margin-bottom: 30px;
 }
@@ -3523,30 +3786,39 @@ textarea:focus::placeholder {
   width: 33.33%;
   padding: 0 10px;
 }
+
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+
   .page-wrapper-2 .isotop-item,
   .page-wrapper-2 .grid-sizer {
     width: 33.33%;
   }
 }
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
   .page-wrapper-2 .isotop-item,
   .page-wrapper-2 .grid-sizer {
     width: 50%;
   }
 }
+
 @media (max-width: 767px) {
+
   .page-wrapper-2 .isotop-item,
   .page-wrapper-2 .grid-sizer {
     width: 100%;
   }
 }
+
 .page-wrapper-2 .fillter-btn-wrap .fillter-btn:hover {
   color: #fa5252;
 }
+
 .page-wrapper-2 .fillter-btn-wrap .fillter-btn.is-checked {
   color: #fa5252;
 }
+
 .page-wrapper-2 .fillter-item .item-title:hover {
   color: #fa5252;
 }
@@ -3554,9 +3826,11 @@ textarea:focus::placeholder {
 .home-3 .fillter-btn-wrap .fillter-btn:is(.is-checked) {
   color: #fa5252;
 }
+
 .home-3 .fillter-btn-wrap .fillter-btn:hover {
   color: #fa5252;
 }
+
 .home-3 .fillter-item .item-title:hover {
   color: #fa5252;
 }
@@ -3565,27 +3839,31 @@ textarea:focus::placeholder {
 ************
 *************************
 10. blog
-******************************************************* 
+*******************************************************
 *************************************************************** */
 .blog-slider-single {
   border-radius: 12px;
   padding: 20px;
   margin-bottom: 30px;
 }
+
 .blog-slider-single .img {
   border-radius: 12px;
   overflow: hidden;
   margin-bottom: 18px;
   display: block;
 }
+
 .blog-slider-single .img img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
+
 .blog-slider-single:hover img {
   transform: scale(1.1);
 }
+
 .blog-slider-single .blog-meta span {
   display: inline-block;
   font-size: 14px;
@@ -3593,10 +3871,12 @@ textarea:focus::placeholder {
   text-transform: capitalize;
   margin-right: 5px;
 }
+
 .blog-slider-single .blog-meta .blog-cetagory {
   position: relative;
   padding-left: 12px;
 }
+
 .blog-slider-single .blog-meta .blog-cetagory::after {
   content: "";
   position: absolute;
@@ -3608,11 +3888,13 @@ textarea:focus::placeholder {
   top: 50%;
   transform: translateY(-50%);
 }
+
 .blog-slider-single .blog-title {
   font-size: 18px;
   font-weight: 500;
   text-transform: capitalize;
 }
+
 .blog-slider-single .blog-title:hover {
   color: var(--theme-primary);
 }
@@ -3620,6 +3902,7 @@ textarea:focus::placeholder {
 .blog-slider-wrap .blog-progation {
   text-align: center;
 }
+
 .blog-slider-wrap .blog-progation span {
   width: 12px;
   height: 12px;
@@ -3628,6 +3911,7 @@ textarea:focus::placeholder {
   margin: 0px 5px !important;
   opacity: 1;
 }
+
 .blog-slider-wrap .blog-progation span:is(.swiper-pagination-bullet-active) {
   background-color: var(--theme-primary);
 }
@@ -3637,6 +3921,7 @@ textarea:focus::placeholder {
   overflow: hidden;
   background-color: rgba(0, 0, 0, 0.4509803922);
 }
+
 .h1-modal-box .modal-dialog {
   max-width: 850px;
   height: 90vh;
@@ -3649,34 +3934,41 @@ textarea:focus::placeholder {
   /* Track */
   /* Handle */
 }
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .h1-modal-box .modal-dialog {
     max-width: 660px;
   }
 }
+
 @media (max-width: 767px) {
   .h1-modal-box .modal-dialog {
     max-width: 95%;
     padding: 10px;
   }
 }
+
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .h1-modal-box .modal-dialog {
     max-width: 95%;
     padding: 30px;
   }
 }
+
 .h1-modal-box .modal-dialog ::-webkit-scrollbar {
   width: 10px;
 }
+
 .h1-modal-box .modal-dialog ::-webkit-scrollbar-track {
   background-color: #e9e3e3;
   border-radius: 10px;
 }
+
 .h1-modal-box .modal-dialog ::-webkit-scrollbar-thumb {
   background: #9c9fa1;
   border-radius: 10px;
 }
+
 .h1-modal-box .modal-dialog .modal-content {
   overflow-x: hidden;
   overflow-y: scroll;
@@ -3686,6 +3978,7 @@ textarea:focus::placeholder {
   border-radius: 0;
   border: none;
 }
+
 .h1-modal-box .modal-dialog .modal-content .modal-header {
   display: inline-block;
   position: fixed;
@@ -3695,53 +3988,62 @@ textarea:focus::placeholder {
   border-bottom: 0;
   padding: 0;
 }
+
 @media (min-width: 1800px) {
   .h1-modal-box .modal-dialog .modal-content .modal-header {
     right: 23%;
   }
 }
+
 @media only screen and (min-width: 1600px) and (max-width: 1799px) {
   .h1-modal-box .modal-dialog .modal-content .modal-header {
     right: 18%;
     top: 8%;
   }
 }
+
 @media only screen and (min-width: 1400px) and (max-width: 1599px) {
   .h1-modal-box .modal-dialog .modal-content .modal-header {
     right: 13%;
     top: 11%;
   }
 }
+
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .h1-modal-box .modal-dialog .modal-content .modal-header {
     right: 8%;
     top: 10%;
   }
 }
+
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .h1-modal-box .modal-dialog .modal-content .modal-header {
     right: 1%;
     top: 9%;
   }
 }
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .h1-modal-box .modal-dialog .modal-content .modal-header {
     right: 1%;
     top: 9%;
   }
 }
+
 @media (max-width: 767px) {
   .h1-modal-box .modal-dialog .modal-content .modal-header {
     right: 83%;
     top: 4%;
   }
 }
+
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .h1-modal-box .modal-dialog .modal-content .modal-header {
     right: 90%;
     top: 10%;
   }
 }
+
 .h1-modal-box .modal-dialog .modal-content .modal-header .close {
   background: transparent;
   border-radius: 50%;
@@ -3754,39 +4056,47 @@ textarea:focus::placeholder {
   line-height: 38px;
   transition: 0.3s;
 }
+
 @media (max-width: 767px) {
   .h1-modal-box .modal-dialog .modal-content .modal-header .close {
     border-color: #e12a72;
     color: #e12a72;
   }
 }
+
 .h1-modal-box .modal-dialog .modal-content .modal-header .close:hover {
   rotate: 90deg;
   border-color: #e12a72;
   color: #e12a72;
 }
+
 .h1-modal-box .modal-dialog .modal-content .modal-body .h1-modal-img {
   border-radius: 15px;
   overflow: hidden;
   margin-bottom: 20px;
 }
+
 .h1-modal-box .modal-dialog .modal-content .modal-body .blog-meta {
   margin-bottom: 15px;
 }
+
 .h1-modal-box .modal-dialog .modal-content .modal-body .blog-meta .blog-date,
 .h1-modal-box .modal-dialog .modal-content .modal-body .blog-meta .blog-cetagory {
   font-size: 18px;
   margin-right: 15px;
 }
+
 .h1-modal-box .modal-dialog .modal-content .modal-body .blog-title {
   font-size: 24px;
   font-weight: 600;
 }
+
 @media (max-width: 767px) {
   .h1-modal-box .modal-dialog .modal-content .modal-body .blog-title {
     font-size: 22px;
   }
 }
+
 .h1-modal-box .modal-dialog .modal-content .modal-body .h1-modal-comment-item {
   display: flex;
   gap: 30px;
@@ -3796,12 +4106,14 @@ textarea:focus::placeholder {
   margin-top: 50px;
   margin-bottom: 30px;
 }
+
 @media (max-width: 767px) {
   .h1-modal-box .modal-dialog .modal-content .modal-body .h1-modal-comment-item {
     flex-wrap: wrap;
     gap: 15px;
   }
 }
+
 .h1-modal-box .modal-dialog .modal-content .modal-body .h1-modal-comment-item .img {
   width: 125px;
   height: 122px;
@@ -3809,33 +4121,41 @@ textarea:focus::placeholder {
   overflow: hidden;
   border-radius: 15px;
 }
+
 .h1-modal-box .modal-dialog .modal-content .modal-body .h1-modal-comment-item .content .name-date {
   margin-bottom: 0px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+
 .h1-modal-box .modal-dialog .modal-content .modal-body .h1-modal-comment-item .content .name-date .name {
   font-size: 22px;
   font-weight: 500;
   margin-bottom: 0;
 }
+
 .h1-modal-box .modal-dialog .modal-content .modal-body .h1-modal-comment-item .content .name-date .date {
   font-size: 14px;
 }
+
 .h1-modal-box .modal-dialog .modal-content .modal-body .h1-modal-comment-item .content .comment-text {
   margin-bottom: 5px;
 }
+
 .h1-modal-box .modal-dialog .modal-content .modal-body .h1-modal-comment-item .content .reply-btn {
   transition: 0.3s;
 }
+
 .h1-modal-box .modal-dialog .modal-content .modal-body .h1-modal-comment-item .content .reply-btn:hover {
   color: #fa5252;
 }
+
 .h1-modal-box .modal-dialog .modal-content .modal-body .h1-modal-comment-box .title {
   font-size: 26px;
   font-weight: 500;
 }
+
 .h1-modal-box .modal-dialog .modal-content .modal-body .h1-modal-comment-box textarea {
   width: 100%;
   height: 80px;
@@ -3846,10 +4166,12 @@ textarea:focus::placeholder {
   padding: 15px;
   font-size: 12px;
 }
+
 .h1-modal-box .modal-dialog .modal-content .modal-body .h1-modal-comment-box textarea::placeholder {
   font-size: 12px;
   color: #9c9fa1;
 }
+
 .h1-modal-box .modal-dialog .modal-content .modal-body .h1-modal-comment-box button {
   font-size: 14px;
   font-weight: 500;
@@ -3861,6 +4183,7 @@ textarea:focus::placeholder {
   background: linear-gradient(180deg, #fa5252 0%, #e12a72 100%);
   color: white;
 }
+
 .h1-modal-box .modal-dialog .modal-content .modal-body .h1-modal-comment-box button:hover {
   background: linear-gradient(80deg, #fa5252 0%, #e12a72 100%);
 }
@@ -3868,9 +4191,11 @@ textarea:focus::placeholder {
 .page-wrapper-2 .blog-slider-wrap .blog-progation span {
   border: 3px solid #fa5252 !important;
 }
+
 .page-wrapper-2 .blog-slider-wrap .blog-progation span:is(.swiper-pagination-bullet-active) {
   background-color: #fa5252;
 }
+
 .page-wrapper-2 .blog-slider-single .blog-title:hover {
   color: #fa5252;
 }
@@ -3878,9 +4203,11 @@ textarea:focus::placeholder {
 .home-3 .blog-slider-wrap .blog-progation span {
   border: 3px solid #f95054 !important;
 }
+
 .home-3 .blog-slider-wrap .blog-progation span:is(.swiper-pagination-bullet-active) {
   background-color: #f95054;
 }
+
 .home-3 .blog-slider-single .blog-title:hover {
   color: #fa5252;
 }
@@ -3889,22 +4216,25 @@ textarea:focus::placeholder {
 ************
 *************************
 11. contact
-******************************************************* 
+*******************************************************
 *************************************************************** */
 .contact-area {
   padding: 60px 45px;
   border-radius: 20px;
 }
+
 @media (max-width: 767px) {
   .contact-area {
     padding: 60px 20px;
   }
 }
+
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .contact-area {
     padding: 60px 30px;
   }
 }
+
 .contact-area .contact-title {
   font-size: 25px;
   font-weight: 400;
@@ -3912,6 +4242,7 @@ textarea:focus::placeholder {
   text-transform: capitalize;
   margin-bottom: 13px;
 }
+
 .contact-area .contact-title-b {
   font-size: 25px;
   font-weight: 700;
@@ -3926,6 +4257,7 @@ textarea:focus::placeholder {
   text-transform: capitalize;
   line-height: 1;
 }
+
 .contact-form .input-box {
   display: block;
   width: 100%;
@@ -3938,6 +4270,7 @@ textarea:focus::placeholder {
   transform-origin: top;
   font-size: 14px;
 }
+
 .contact-form .input-box:is(.height) {
   height: 40px;
 }
@@ -3948,48 +4281,57 @@ textarea:focus::placeholder {
   padding: 30px;
   border-radius: 10px;
 }
+
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .bostami-contact-item {
     padding: 20px;
   }
 }
+
 @media (max-width: 767px) {
   .bostami-contact-item {
     padding: 20px;
     flex-wrap: wrap;
   }
 }
+
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .bostami-contact-item {
     padding: 30px;
     flex-wrap: nowrap;
   }
 }
+
 .bostami-contact-item .icon {
   flex: 0 0 auto;
   width: 35px;
 }
+
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .bostami-contact-item .icon {
     width: 40px;
   }
 }
+
 @media (max-width: 767px) {
   .bostami-contact-item .icon {
     width: 40px;
   }
 }
+
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .bostami-contact-item .icon {
     width: 80px;
   }
 }
+
 .bostami-contact-item .text .title {
   font-size: 20px;
   font-weight: 500;
   line-height: 30px;
   margin-bottom: 10px;
 }
+
 .bostami-contact-item .text span {
   display: block;
   font-size: 18px;
@@ -4002,7 +4344,7 @@ textarea:focus::placeholder {
 ************
 *************************
 12. preloader
-******************************************************* 
+*******************************************************
 *************************************************************** */
 /* preloader */
 #preloader {
@@ -4085,10 +4427,12 @@ textarea:focus::placeholder {
   0% {
     height: 0%;
   }
+
   100% {
     height: 100%;
   }
 }
+
 @keyframes lineround {
   0% {
     -webkit-transform: translateY(-100%);
@@ -4096,6 +4440,7 @@ textarea:focus::placeholder {
     -o-transform: translateY(-100%);
     transform: translateY(-100%);
   }
+
   100% {
     -webkit-transform: translateY(200%);
     -ms-transform: translateY(200%);
@@ -4103,6 +4448,7 @@ textarea:focus::placeholder {
     transform: translateY(200%);
   }
 }
+
 .portfolio_list {
   min-height: 50vh;
 }
@@ -4128,15 +4474,17 @@ textarea:focus::placeholder {
   0% {
     width: 50%;
   }
+
   100% {
     width: 0%;
   }
 }
+
 /*
 ************
 *************************
 13. blog details
-******************************************************* 
+*******************************************************
 *************************************************************** */
 
 .breadcrumb-title {
@@ -4148,17 +4496,21 @@ textarea:focus::placeholder {
   font-family: "Roboto Slab", serif;
   margin-bottom: 15px;
 }
+
 @media (max-width: 767px) {
   .breadcrumb-title {
     font-size: 26px;
   }
 }
+
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .breadcrumb-title {
     font-size: 30px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+
+@media only screen and (min-width: 768px) and (max-width: 991px),
+(max-width: 767px) {
   .breadcrumb-title br {
     display: none;
   }
@@ -4169,6 +4521,7 @@ textarea:focus::placeholder {
   position: relative;
   padding: 0 10px;
 }
+
 .breadcrumb-meta-wrap .meta-item:not(:last-child)::after {
   position: absolute;
   content: "";
@@ -4179,6 +4532,7 @@ textarea:focus::placeholder {
   top: 42%;
   right: -4px;
 }
+
 .breadcrumb-meta-wrap .meta-item .img {
   width: 30px;
   height: 30px;
@@ -4186,11 +4540,13 @@ textarea:focus::placeholder {
   display: inline-block;
   margin-right: 5px;
 }
+
 .breadcrumb-meta-wrap .meta-item .img img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
+
 .breadcrumb-meta-wrap .meta-item .author-name,
 .breadcrumb-meta-wrap .meta-item .date,
 .breadcrumb-meta-wrap .meta-item .comment {
@@ -4222,16 +4578,19 @@ textarea:focus::placeholder {
   padding: 40px 58px;
   background-color: #f3f6f6;
 }
+
 @media (max-width: 767px) {
   .blog-details-blockquote {
     padding: 30px 20px;
   }
 }
+
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .blog-details-blockquote {
     padding: 40px 58px;
   }
 }
+
 .blog-details-blockquote span {
   display: block;
   font-weight: 400;
@@ -4247,6 +4606,7 @@ textarea:focus::placeholder {
   font-weight: 400;
   color: #696969;
 }
+
 .blog-details-list-item-wrap li i {
   display: inline-block;
   font-size: 18px;
@@ -4261,6 +4621,7 @@ textarea:focus::placeholder {
   position: relative;
   padding-left: 19px;
 }
+
 .blog-details-short-list li::after {
   position: absolute;
   content: "";
@@ -4281,6 +4642,7 @@ textarea:focus::placeholder {
   border-top: 1px solid #ecedf2;
   border-bottom: 1px solid #ecedf2;
 }
+
 .blog-details-tag .title {
   font-size: 16px;
   font-weight: 400;
@@ -4289,6 +4651,7 @@ textarea:focus::placeholder {
   text-transform: capitalize;
   margin-bottom: 0;
 }
+
 .blog-details-tag .tag-item a {
   display: inline-block;
   font-size: 14px;
@@ -4301,11 +4664,13 @@ textarea:focus::placeholder {
   padding: 7px 20px;
   transition: 0.3s;
 }
+
 @media (max-width: 767px) {
   .blog-details-tag .tag-item a {
     margin-bottom: 8px;
   }
 }
+
 .blog-details-tag .tag-item a:hover {
   background: linear-gradient(97deg, rgb(250, 82, 82) 0%, rgb(221, 36, 118) 100%);
   color: #fff;
@@ -4314,15 +4679,18 @@ textarea:focus::placeholder {
 .blog-details-comment-item .ratting {
   text-align: right;
 }
+
 .blog-details-comment-item .ratting i {
   display: inline-block;
   font-size: 13px;
   color: #ffc78b;
 }
+
 .blog-details-comment-item .flex {
   display: flex;
   gap: 32px;
 }
+
 .blog-details-comment-item .flex .img {
   width: 80px;
   height: 80px;
@@ -4330,11 +4698,13 @@ textarea:focus::placeholder {
   overflow: hidden;
   flex: 0 0 auto;
 }
+
 .blog-details-comment-item .flex .img img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
+
 .blog-details-comment-item .flex .content .name {
   display: block;
   font-size: 16px;
@@ -4343,6 +4713,7 @@ textarea:focus::placeholder {
   color: #202124;
   text-transform: capitalize;
 }
+
 .blog-details-comment-item .flex .content .bio {
   display: block;
   font-size: 14px;
@@ -4352,6 +4723,7 @@ textarea:focus::placeholder {
   color: #696969;
   margin-bottom: 18px;
 }
+
 .blog-details-comment-item .flex .content p {
   font-weight: 400;
   font-size: 15px;
@@ -4365,24 +4737,29 @@ textarea:focus::placeholder {
   border: 1px solid #ecedf2;
   border-radius: 8px;
 }
+
 @media (max-width: 767px) {
   .blog-details-comment-box {
     padding: 25px;
   }
 }
+
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .blog-details-comment-box {
     padding: 50px;
   }
 }
+
 .blog-details-comment-box .blog-details-inner-title {
   margin-bottom: 0;
 }
+
 .blog-details-comment-box .ratting i {
   display: inline-block;
   font-size: 13px;
   color: #ffc78b;
 }
+
 .blog-details-comment-box form .input-title {
   text-transform: capitalize;
   font-weight: 400;
@@ -4392,6 +4769,7 @@ textarea:focus::placeholder {
   display: block;
   margin-bottom: 3px;
 }
+
 .blog-details-comment-box form input,
 .blog-details-comment-box form textarea {
   display: block;
@@ -4405,6 +4783,7 @@ textarea:focus::placeholder {
   color: #77838f;
   padding: 22px;
 }
+
 .blog-details-comment-box form input::placeholder,
 .blog-details-comment-box form textarea::placeholder {
   font-size: 14px;
@@ -4412,10 +4791,12 @@ textarea:focus::placeholder {
   color: #77838f;
   text-transform: capitalize;
 }
+
 .blog-details-comment-box form textarea {
   height: 195px;
   padding: 19px 25px;
 }
+
 .blog-details-comment-box form .submit-comments {
   font-weight: 500;
   font-size: 18px;
@@ -4429,6 +4810,7 @@ textarea:focus::placeholder {
   padding: 12px 34px;
   transition: 0.3s;
 }
+
 .blog-details-comment-box form .submit-comments:hover {
   background: linear-gradient(97deg, rgb(250, 82, 82) 0%, rgb(221, 36, 118) 100%);
   color: #fff;
@@ -4439,7 +4821,7 @@ textarea:focus::placeholder {
 ************
 *************************
 14. sidebar
-******************************************************* 
+*******************************************************
 *************************************************************** */
 .sidebar-wrap {
   padding: 30px;
@@ -4447,7 +4829,9 @@ textarea:focus::placeholder {
   border-radius: 8px;
   margin-left: 20px;
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+
+@media only screen and (min-width: 768px) and (max-width: 991px),
+(max-width: 767px) {
   .sidebar-wrap {
     margin-left: 0;
     margin-top: 50px;
@@ -4466,6 +4850,7 @@ textarea:focus::placeholder {
 .sidebar-search-box {
   position: relative;
 }
+
 .sidebar-search-box .search-btn {
   position: absolute;
   top: 0;
@@ -4477,6 +4862,7 @@ textarea:focus::placeholder {
   font-size: 18px;
   color: #696969;
 }
+
 .sidebar-search-box .search-input {
   width: 100%;
   height: 60px;
@@ -4490,6 +4876,7 @@ textarea:focus::placeholder {
   padding: 22px;
   padding-left: 55px;
 }
+
 .sidebar-search-box .search-input::placeholder {
   font-size: 15px;
   font-weight: 400;
@@ -4508,6 +4895,7 @@ textarea:focus::placeholder {
   padding-left: 15px;
   transition: 0.3s;
 }
+
 .sidebar-category li a::after {
   position: absolute;
   content: "";
@@ -4519,9 +4907,11 @@ textarea:focus::placeholder {
   left: 0;
   transition: 0.3s;
 }
+
 .sidebar-category li a:hover {
   color: #dd2476;
 }
+
 .sidebar-category li a:hover::after {
   background-color: #dd2476;
 }
@@ -4531,11 +4921,13 @@ textarea:focus::placeholder {
   align-items: center;
   gap: 22px;
 }
+
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .recent-post-item {
     gap: 10px;
   }
 }
+
 .recent-post-item .img {
   flex: 0 0 auto;
   width: 70px;
@@ -4543,11 +4935,13 @@ textarea:focus::placeholder {
   border-radius: 6px;
   overflow: hidden;
 }
+
 .recent-post-item .img a img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
+
 .recent-post-item .content .date {
   display: block;
   font-weight: 400;
@@ -4556,6 +4950,7 @@ textarea:focus::placeholder {
   color: #696969;
   line-height: 21px;
 }
+
 .recent-post-item .content .title {
   font-size: 15px;
   font-weight: 400;
@@ -4564,9 +4959,11 @@ textarea:focus::placeholder {
   color: #202124;
   margin-bottom: 3px;
 }
+
 .recent-post-item .content .title a {
   text-decoration: none;
 }
+
 .recent-post-item .content .title:hover {
   color: #dd2476;
 }
@@ -4584,6 +4981,7 @@ textarea:focus::placeholder {
   margin-bottom: 7px;
   transition: 0.3s;
 }
+
 .sidebar-tag a:hover {
   background: linear-gradient(97deg, rgb(250, 82, 82) 0%, rgb(221, 36, 118) 100%);
   color: #fff;
@@ -4593,7 +4991,7 @@ textarea:focus::placeholder {
 ************
 *************************
 15. dark theme
-******************************************************* 
+*******************************************************
 *************************************************************** */
 .dark-theme .overly {
   position: fixed;
@@ -4612,6 +5010,7 @@ textarea:focus::placeholder {
 .dark-theme .page-wrapper .bostami-main-menu-wrap {
   background-color: #000;
 }
+
 .dark-theme .page-wrapper .mobile-menu-wrap .mobile_menu .mean-bar,
 .dark-theme .page-wrapper .mobile-menu-wrap .mobile_menu .mean-bar .mean-nav,
 .dark-theme .page-wrapper .bostami-parsonal-info-contact,
@@ -4620,82 +5019,104 @@ textarea:focus::placeholder {
 .dark-theme .page-wrapper .main-style-2 .bostami-main-menu-wrap .bastami-main-menu ul li a {
   background-color: #1d1d1d;
 }
+
 .dark-theme .page-wrapper .bg-light-white-2,
 .dark-theme .page-wrapper .blog-slider-single,
 .dark-theme .page-wrapper .fillter-item {
   background-color: #0d0d0d;
 }
+
 .dark-theme .page-wrapper .knowledeges-item-wrap .gk-item {
   background-color: #1c1c1c;
 }
+
 .dark-theme .page-wrapper .bastami-main-menu ul li,
 .dark-theme .page-wrapper .bostami-contact-item {
   background-color: #212425;
 }
+
 .dark-theme .page-wrapper .bastami-main-menu ul li.active a {
   color: #fff;
 }
+
 .dark-theme .page-wrapper .bastami-main-menu ul li.active {
   background-color: #1b74e4;
 }
+
 .dark-theme .page-wrapper .bastami-main-menu ul li:hover a {
   color: #fff;
 }
+
 .dark-theme .page-wrapper .bastami-main-menu ul li:hover {
   background-color: #1b74e4;
 }
+
 .dark-theme .page-wrapper .bostami-what-do-item,
 .dark-theme .page-wrapper .bostami-card-item,
 .dark-theme .page-wrapper .form-btn,
 .dark-theme .page-wrapper .mobile-menu-wrap .mobile_menu .mean-bar .mean-nav ul li a {
   background-color: transparent;
 }
+
 .dark-theme .page-wrapper .bostami-parsonal-info-social-link li a:hover {
   background-color: #1b74e4;
 }
+
 .dark-theme .page-wrapper .btn-1:hover {
   background-color: #1d1d1d;
 }
+
 .dark-theme .page-wrapper .mobile-menu-wrap .mobile_menu .mean-bar .mean-nav ul li a,
 .dark-theme .page-wrapper .btn-1,
 .dark-theme .page-wrapper .bostami-card-item .card-title,
 .dark-theme .page-wrapper .form-btn {
   color: #fff;
 }
+
 .dark-theme .page-wrapper .bostami-parsonal-info-bio,
 .dark-theme .page-wrapper .bostami-contact-item .text span {
   color: #a6a6a6;
 }
+
 .dark-theme .page-wrapper .mobile-menu-wrap .mobile_menu .mean-bar .mean-nav ul li a:hover {
   color: #fa5252;
 }
+
 .dark-theme .page-wrapper .mobile-menu-wrap .mobile_menu .mean-bar .mean-nav ul li.active a {
   color: #fa5252;
 }
+
 .dark-theme .page-wrapper .mobile-menu-wrap .mobile_menu .mean-bar .mean-nav ul li a span svg * {
   fill: #fff;
 }
+
 .dark-theme .page-wrapper .mobile-menu-wrap .mobile_menu .mean-bar .mean-nav ul li a span img {
   filter: brightness(5);
 }
+
 .dark-theme .page-wrapper .mobile-menu-wrap .mobile_menu .mean-bar .mean-nav ul li:hover a span svg * {
   fill: #fa5252;
 }
+
 .dark-theme .page-wrapper .mobile-menu-wrap .mobile_menu .mean-bar .mean-nav ul li.active a span svg * {
   fill: #fa5252;
 }
+
 .dark-theme .page-wrapper .mobile-menu-wrap .mobile_menu .mean-bar .mean-nav ul li:hover a span img {
   filter: saturate(25);
 }
+
 .dark-theme .page-wrapper .mobile-menu-wrap .mobile_menu .mean-bar .mean-nav ul li:is(.active) a span img {
   filter: saturate(25);
 }
+
 .dark-theme .page-wrapper .bostami-what-do-item,
 .dark-theme .page-wrapper .bostami-card-item,
 .dark-theme .page-wrapper .blog-slider-single,
 .dark-theme .page-wrapper .fillter-item {
   border: 1px solid #212425;
 }
+
 .dark-theme .page-wrapper-2 .main-style-2 .bostami-main-menu-wrap .bastami-main-menu ul li a span img {
   filter: brightness(5);
 }
@@ -4703,92 +5124,121 @@ textarea:focus::placeholder {
 .dark-theme .page-wrapper-2 .bostami-page-area .bostami-page-wrap {
   background: #111;
 }
+
 .dark-theme .page-wrapper-2 .main-style-2 .bostami-main-menu-wrap .bastami-main-menu ul li a span svg * {
   fill: white;
 }
+
 .dark-theme .page-wrapper-2 .bostami-header-wrap.main-style-2 {
   background-color: transparent;
 }
+
 .dark-theme .page-wrapper-2 .bostami-main-menu-wrap {
   background: transparent;
 }
+
 .dark-theme .page-wrapper-2 .bostami-parsonal-info-area.bostami-parsonal-info-2-area {
   background: transparent;
 }
+
 .dark-theme .page-wrapper-2 .bostami-page-area .bostami-parsonal-info-contact {
   background-color: transparent;
 }
+
 .dark-theme .page-wrapper-2 .bostami-parsonal-info-contact-item .icon:hover {
   background: linear-gradient(97deg, rgb(250, 82, 82) 0%, rgb(221, 36, 118) 100%);
 }
+
 .dark-theme .home-3 .bastami-main-menu ul li:is(.active) a span svg * {
   fill: white;
 }
+
 .dark-theme .home-3 .bastami-main-menu ul li:hover a span svg * {
   fill: white;
 }
+
 .dark-theme .home-3 .bostami-header-wrap {
   background: transparent !important;
 }
+
 .dark-theme .home-3 .bostami-parsonal-info-social-link li a:hover {
   background: linear-gradient(97deg, rgb(250, 82, 82) 0%, rgb(221, 36, 118) 100%);
 }
+
 .dark-theme .home-3 .bastami-main-menu ul li:is(.active) {
   background: linear-gradient(97deg, rgb(250, 82, 82) 0%, rgb(221, 36, 118) 100%);
 }
+
 .dark-theme .home-3 .bastami-main-menu ul li:hover {
   background: linear-gradient(97deg, rgb(250, 82, 82) 0%, rgb(221, 36, 118) 100%);
 }
+
 .dark-theme .home-3 .bostami-parsonal-info-contact-item .icon:hover {
   background: linear-gradient(97deg, rgb(250, 82, 82) 0%, rgb(221, 36, 118) 100%);
 }
+
 .dark-theme .home-1 .bostami-header-wrap {
   background: transparent;
 }
+
 .dark-theme .home-1 .bastami-main-menu ul li.active a span svg * {
   fill: white;
 }
+
 .dark-theme .home-1 .bastami-main-menu ul li a span svg *,
 .dark-theme .home-3 .bastami-main-menu ul li a span svg * {
   fill: #a6a6a6;
 }
+
 .dark-theme .home-1 .bastami-main-menu ul li:hover a span svg * {
   fill: white;
 }
+
 .dark-theme .home-1 .mobile-menu-wrap .mobile_menu .mean-bar .mean-nav ul li a:hover {
   color: #1b74e4;
 }
+
 .dark-theme .home-1 .mobile-menu-wrap .mobile_menu .mean-bar .mean-nav ul li.active a {
   color: #1b74e4;
 }
+
 .dark-theme .home-1 .mobile-menu-wrap .mobile_menu .mean-bar .mean-nav ul li.active a span svg * {
   fill: #1b74e4;
 }
+
 .dark-theme .home-1 .mobile-menu-wrap .mobile_menu .mean-bar .mean-nav ul li:hover a span svg * {
   fill: #1b74e4;
 }
+
 .dark-theme .home-1 .mobile-menu-wrap .mobile_menu .mean-bar .mean-nav ul li:hover a span img {
   filter: saturate(25);
 }
+
 .dark-theme .home-1 .mobile-menu-wrap .mobile_menu .mean-bar .mean-nav ul li:is(.active) a span img {
   filter: saturate(25);
 }
+
 .dark-theme .h1-modal-box .modal-dialog {
   background-color: #323232;
 }
+
 .dark-theme .h1-modal-box .modal-dialog .modal-content {
   background-color: #323232;
 }
+
 .dark-theme .h1-modal-box .modal-dialog .modal-content .modal-body .h1-modal-comment-box textarea {
   background: #000;
   color: white;
 }
+
 .dark-theme .portfolio-modal-box .modal-dialog {
   background-color: #323232;
 }
+
 .dark-theme .portfolio-modal-box .modal-dialog .modal-content {
   background-color: #323232;
 }
+
 .dark-theme .portfolio-modal-box .modal-dialog .modal-content .modal-body .h1-modal-comment-box textarea {
   background: #000;
   color: white;
@@ -4798,9 +5248,11 @@ textarea:focus::placeholder {
 .dark-theme .bostami-parsonal-info-contact-item:not(:first-child) {
   border-color: #333;
 }
+
 .dark-theme .contact-form .input-box {
   border-bottom-color: #333;
 }
+
 .dark-theme .bostami-parsonal-info-btn .btn-2 {
   color: #fff;
 }
@@ -4809,11 +5261,13 @@ textarea:focus::placeholder {
 .dark-theme .breadcrumb-title {
   color: #fff;
 }
+
 .dark-theme .breadcrumb-meta-wrap .meta-item .author-name,
 .dark-theme .breadcrumb-meta-wrap .meta-item .date,
 .dark-theme .breadcrumb-meta-wrap .meta-item .comment {
   color: var(--body-text);
 }
+
 .dark-theme .blog-details-blockquote {
   font-size: 15px;
   font-weight: 400;
@@ -4823,15 +5277,19 @@ textarea:focus::placeholder {
   padding: 40px 58px;
   background-color: #222;
 }
+
 .dark-theme .blog-details-blockquote span {
   color: var(--body-text);
 }
+
 .dark-theme .blog-details-content p {
   color: var(--body-text);
 }
+
 .dark-theme .blog-details-inner-title {
   color: #fff;
 }
+
 .dark-theme .blog-details-list-item-wrap li {
   color: var(--body-text);
 }
@@ -4839,70 +5297,88 @@ textarea:focus::placeholder {
 .dark-theme .blog-details-short-list li {
   color: var(--body-text);
 }
+
 .dark-theme .blog-details-tag {
   border-top: 1px solid #3b3b3b;
   border-bottom: 1px solid #3b3b3b;
 }
+
 .dark-theme .blog-details-tag .tag-item a {
   background: #333;
   color: var(--body-text);
 }
+
 .dark-theme .blog-details-tag .tag-item a:hover {
   background: linear-gradient(97deg, rgb(250, 82, 82) 0%, rgb(221, 36, 118) 100%);
   color: rgb(255, 255, 255);
 }
+
 .dark-theme .blog-details-comment-item .flex .content p {
   color: var(--body-text);
 }
+
 .dark-theme .blog-details-comment-item .flex .content .bio {
   color: var(--body-text);
 }
+
 .dark-theme .blog-details-comment-item .flex .content .name {
   color: #fff;
 }
+
 .dark-theme .blog-details-comment-box form input,
 .dark-theme .blog-details-comment-box form textarea {
   background: #0d0d0d;
   color: var(--body-text);
   border: 1px solid #444;
 }
+
 .dark-theme .blog-details-comment-box form .input-title {
   color: var(--body-text);
 }
+
 .dark-theme .blog-details-comment-box {
   border: 1px solid #333;
 }
+
 .dark-theme .sidebar-wrap {
   background: rgb(34, 34, 34);
   color: var(--body-text);
 }
+
 .dark-theme .sidebar-category li a {
   color: var(--body-text);
 }
+
 .dark-theme .sidebar-search-box .search-input {
   background: rgb(13, 13, 13);
   color: var(--body-text);
   border: 1px solid #444;
 }
+
 .dark-theme .sidebar-category li a::after {
   background-color: #fff;
 }
+
 .dark-theme .recent-post-item .content .date {
   color: var(--body-text);
 }
+
 .dark-theme .recent-post-item .content .title {
   color: #fff;
 }
+
 .dark-theme .sidebar-tag a {
   background: rgb(51, 51, 51);
   color: var(--body-text);
 }
+
 .dark-theme .sidebar-tag a:hover {
   background: linear-gradient(97deg, rgb(250, 82, 82) 0%, rgb(221, 36, 118) 100%);
   color: rgb(255, 255, 255);
 }
+
 .dark-theme .btn-2 {
   color: #fff;
 }
-.dark-theme {
-}
+
+.dark-theme {}
