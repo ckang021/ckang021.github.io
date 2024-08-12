@@ -2781,6 +2781,10 @@ only screen and (min-width: 1400px) and (max-width: 1599px) {
   fill: #1b74e4;
 }
 
+.site-logo {
+  margin-left: 50px;
+}
+
 /*
 ************
 *************************
