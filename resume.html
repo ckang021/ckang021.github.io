@@ -7,6 +7,9 @@
   <meta name="description" content="Chris Kang — Resume: education, experience, and skills.">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
@@ -15,23 +18,33 @@
   <header class="site-header">
     <div class="nav-bar">
       <a class="nav-name" href="index.html">Chris Kang</a>
-      <button class="nav-toggle" aria-label="Toggle navigation">&#9776;</button>
+      <button class="nav-toggle" aria-label="Toggle navigation">Menu</button>
       <ul class="nav-links">
-        <li><a href="index.html">About</a></li>
-        <li><a href="resume.html" class="active">Resume</a></li>
+        <li><a href="about.html">About</a></li>
         <li><a href="works.html">Works</a></li>
-        <li><a href="photography.html">Photography</a></li>
+        <li><a href="resume.html" class="active">Resume</a></li>
       </ul>
     </div>
   </header>
 
   <main class="wrap">
 
-    <section style="padding-top: 40px;">
-      <a class="btn" href="https://drive.google.com/file/d/1UQC1DIicTKNdKU9Juei0dtzpcEkeKav-/view?usp=sharing" target="_blank" rel="noopener noreferrer">Download Resume</a>
-    </section>
+    <div class="cover reveal">
+      <div class="cover-meta">
+        <span>Resume</span>
+        <span class="issue">Issue N&ordm; 03</span>
+        <span>Los Angeles</span>
+      </div>
+      <h1 class="cover-title">R&eacute;sum&eacute;.</h1>
+      <p class="cover-lines">Content Strategy &rarr; Engineering &rarr; Photography</p>
+      <a class="btn" href="https://drive.google.com/file/d/1Ygp3Y-ElV6Nr65MG3YD80EIkH-SFWlVX/view?usp=sharing" target="_blank" rel="noopener noreferrer">Download Resume</a>
+      <div class="cover-foot">
+        <span>Curriculum Vit&aelig;</span>
+        <span>Chris Kang &mdash; 2026</span>
+      </div>
+    </div>
 
-    <section>
+    <section class="reveal">
       <div class="resume-columns">
         <div>
           <h2 class="section-title">Education</h2>
@@ -49,6 +62,11 @@
 
         <div>
           <h2 class="section-title">Experience</h2>
+          <div class="timeline-item">
+            <span class="timeline-date">2026 – Now</span>
+            <h3 class="timeline-title">Content Strategist</h3>
+            <p class="timeline-sub">Spigen</p>
+          </div>
           <div class="timeline-item">
             <span class="timeline-date">2021 – 2023</span>
             <h3 class="timeline-title">Digital Marketing Specialist</h3>
@@ -68,7 +86,7 @@
       </div>
     </section>
 
-    <section>
+    <section class="reveal">
       <div class="resume-columns">
         <div>
           <h2 class="section-title">Technologies</h2>
