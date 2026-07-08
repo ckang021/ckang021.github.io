@@ -132,9 +132,10 @@ img {
 
   .nav-links {
     position: absolute;
-    top: 66px;
+    top: 100%;
     left: 0;
     right: 0;
+    z-index: 200;
     background: var(--bg);
     border-bottom: 1px solid var(--border);
     flex-direction: column;
@@ -158,6 +159,8 @@ img {
 
   .site-header {
     position: relative;
+    z-index: 200;
+    background: var(--bg);
   }
 }
 
@@ -165,17 +168,25 @@ img {
 .hero {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  min-height: 78vh;
+  min-height: 64vh;
+  align-items: center;
 }
 
 .hero-media {
   overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px clamp(24px, 5vw, 72px);
 }
 
 .hero-avatar {
   width: 100%;
-  height: 100%;
+  max-width: 340px;
+  aspect-ratio: 4 / 5;
+  height: auto;
   object-fit: cover;
+  border: 1px solid var(--border);
   transition: transform 1.2s ease;
 }
 
@@ -291,7 +302,11 @@ img {
   }
 
   .hero-media {
-    height: 56vh;
+    padding: 32px 24px 8px;
+  }
+
+  .hero-avatar {
+    max-width: 260px;
   }
 }
 
@@ -864,6 +879,237 @@ h2.section-title::after {
   max-width: 100%;
   max-height: 90vh;
   border-radius: 2px;
+}
+
+/* ---------- Image placeholders (fill in later) ---------- */
+.ph {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  min-height: 220px;
+  background:
+    repeating-linear-gradient(45deg, transparent 0 12px, rgba(42, 36, 32, 0.022) 12px 24px),
+    var(--surface);
+}
+
+.ph span {
+  font-family: var(--mono);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--muted);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 8px 15px;
+  background: var(--bg);
+}
+
+.case-media .ph {
+  aspect-ratio: 4 / 3;
+  min-height: 0;
+}
+
+/* AI-built badge on app cards */
+.ai-badge {
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  z-index: 2;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--mono);
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #fff;
+  background: var(--accent);
+  padding: 5px 11px;
+  border-radius: 999px;
+}
+
+/* ---------- Marketing case studies ---------- */
+.case-list {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(56px, 8vw, 96px);
+  padding: 16px 0 72px;
+}
+
+.case {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: clamp(24px, 4vw, 56px);
+  align-items: center;
+}
+
+.case:nth-child(even) .case-media {
+  order: 2;
+}
+
+.case-media {
+  overflow: hidden;
+  border: 1px solid var(--border);
+}
+
+.case-media img {
+  width: 100%;
+  height: 100%;
+  max-height: 540px;
+  object-fit: cover;
+  transition: transform 0.6s ease;
+}
+
+.case:hover .case-media img {
+  transform: scale(1.03);
+}
+
+.case-eyebrow {
+  font-family: var(--mono);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--muted);
+  margin: 0 0 10px;
+}
+
+.case-eyebrow .sep {
+  color: var(--accent);
+  margin: 0 8px;
+}
+
+.case h3 {
+  font-family: var(--serif);
+  font-style: italic;
+  font-weight: 500;
+  font-size: clamp(30px, 3.4vw, 42px);
+  line-height: 1.05;
+  margin: 0 0 16px;
+}
+
+.case-blurb {
+  margin: 0 0 26px;
+  color: var(--text);
+  font-size: 16px;
+  max-width: 46ch;
+}
+
+.case-metrics {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 28px 40px;
+  margin: 0 0 26px;
+}
+
+.metric {
+  display: flex;
+  flex-direction: column;
+}
+
+.metric .value {
+  font-family: var(--serif);
+  font-style: italic;
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 1;
+  color: var(--accent);
+}
+
+.metric .label {
+  font-family: var(--mono);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+  margin-top: 8px;
+  max-width: 16ch;
+}
+
+.case-tools {
+  font-family: var(--mono);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+}
+
+@media (max-width: 760px) {
+  .case {
+    grid-template-columns: 1fr;
+    gap: 22px;
+  }
+
+  .case:nth-child(even) .case-media {
+    order: 0;
+  }
+
+  .case-media img {
+    max-height: 340px;
+  }
+}
+
+/* ---------- Tech chips (resume) ---------- */
+.icon-sprite {
+  position: absolute;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}
+
+.tech-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.tech {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-family: var(--mono);
+  font-size: 12px;
+  letter-spacing: 0.02em;
+  color: var(--text);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 5px 12px 5px 9px;
+  transition: border-color 0.25s ease, transform 0.25s ease;
+}
+
+.tech:hover {
+  border-color: var(--ic);
+  transform: translateY(-1px);
+}
+
+.tech-ico {
+  width: 15px;
+  height: 15px;
+  flex: none;
+  color: var(--ic);
+}
+
+/* ---------- Image load fade-in (JS adds .img-fade only while loading) ---------- */
+.editorial-item,
+.case-media {
+  background: var(--surface);
+}
+
+.img-fade {
+  opacity: 0;
+  transition: opacity 0.55s ease;
+}
+
+.img-fade.is-loaded {
+  opacity: 1;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .img-fade {
+    transition: none;
+  }
 }
 
 /* ---------- Footer ---------- */
