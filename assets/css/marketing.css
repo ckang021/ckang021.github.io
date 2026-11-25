@@ -140,3 +140,7 @@
 .carousel-preview { padding: 28px; background: var(--surface); text-align: center; }
 .carousel-preview img { width: auto; max-width: 100%; max-height: 420px; margin: 0 auto; }
 .carousel-preview p { margin: 16px auto 4px; font: 14px var(--mono); color: var(--muted); }
+.card-art.homeview,.case-feature.homeview { background: #d5dddb; }
+.homeview-study .storyboard-grid { grid-template-columns: repeat(3,minmax(0,1fr)); }
+.homeview-study .frame-button img { object-fit: contain; }
+@media (max-width: 560px) { .homeview-study .storyboard-grid { grid-template-columns: repeat(2,minmax(0,1fr)); } }
