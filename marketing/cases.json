@@ -1,0 +1,146 @@
+[
+  {
+    "id": "soft-card-holder",
+    "key": "wallet",
+    "title": "Less bulk. More everyday.",
+    "name": "Soft Card Holder Refresh",
+    "category": "Product stories",
+    "plays": 171938,
+    "engagement": 5469,
+    "rate": "3.18%",
+    "row": 126,
+    "video": "7659830772697763103",
+    "pages": "71\u201372",
+    "hook": "Start with the problem in the pocket.",
+    "insight": "Everyday carry is about carrying smarter. A wallet needs to feel slim without sacrificing the things people actually take with them.",
+    "idea": "Turn an exaggerated, overstuffed wallet into a compact everyday setup. Make the benefit visible before asking viewers to care about the product.",
+    "execution": "Open on a bulky pocket, empty the old wallet, then rebuild the carry with the Soft Card Holder. Fast unboxing, card organization and a key attachment turn features into a simple transformation.",
+    "learning": "The strongest recorded reach in this selection came from a clear before-and-after product story. This suggests a useful direction for future carry content; the tracker does not establish what caused the result.",
+    "frames": [
+      [
+        "wallet-1",
+        "Plan the carry"
+      ],
+      [
+        "wallet-6",
+        "Reveal the upgrade"
+      ],
+      [
+        "wallet-2",
+        "Organize the essentials"
+      ],
+      [
+        "wallet-7",
+        "Connect the keys"
+      ]
+    ]
+  },
+  {
+    "id": "galaxy-refresh",
+    "key": "galaxy",
+    "title": "A refresh worth unpacking.",
+    "name": "S26U Refresh",
+    "category": "Product stories",
+    "plays": 140628,
+    "engagement": 6703,
+    "rate": "4.77%",
+    "row": 131,
+    "video": "7662786766897794335",
+    "pages": "73\u201374",
+    "hook": "Make the first frame feel overdue.",
+    "insight": "The strategy identified an opportunity to balance Apple content with Samsung stories and show how accessories work together as an ecosystem.",
+    "idea": "Use a visibly worn setup as the hook, then build a satisfying phone refresh around the Galaxy conversation.",
+    "execution": "Remove the old protection, apply camera and screen protectors, then introduce the case and MagFit wallet. Finish with the stand in use, connecting the refresh to an everyday viewing moment.",
+    "learning": "The recorded engagement rate was 4.77% across 140,628 plays. The result gives a concrete benchmark for the refresh format, without attributing sales or audience growth to a single post.",
+    "frames": [
+      [
+        "galaxy-8",
+        "Show the worn setup"
+      ],
+      [
+        "galaxy-3",
+        "Remove and reset"
+      ],
+      [
+        "galaxy-5",
+        "Rebuild the protection"
+      ],
+      [
+        "galaxy-1",
+        "Show the use case"
+      ]
+    ]
+  },
+  {
+    "id": "galaxy-watch",
+    "key": "watch",
+    "title": "A different kind of wrist check.",
+    "name": "Galaxy Watch Refresh",
+    "category": "Product stories",
+    "plays": 127063,
+    "engagement": 3180,
+    "rate": "2.50%",
+    "row": 135,
+    "video": "7664676638348692766",
+    "pages": "75\u201376",
+    "hook": "Put protection into a real routine.",
+    "insight": "The research called out limited Galaxy Watch content and an opportunity to make the band and protection lineup visible to Samsung users.",
+    "idea": "Move beyond a product lineup. Show how protection and different band styles fit into the rhythm of a day.",
+    "execution": "Open with everyday bumps and worn protection. Replace the protector and band, then use scene changes to connect each band to an outdoor or office setting.",
+    "learning": "The tracker records 127,063 plays and 3,180 engagements. Reach was substantial within this selection, while the 2.50% rate suggests room to test a stronger conversation prompt.",
+    "frames": [
+      [
+        "watch-1",
+        "Establish the routine"
+      ],
+      [
+        "watch-7",
+        "Show the wear"
+      ],
+      [
+        "watch-3",
+        "Change the band"
+      ],
+      [
+        "watch-5",
+        "Reintroduce the watch"
+      ]
+    ]
+  },
+  {
+    "id": "comic-book",
+    "key": "comic",
+    "title": "The $2k comic book.",
+    "name": "my 2k comic book",
+    "category": "Community & culture",
+    "plays": 109295,
+    "engagement": 8072,
+    "rate": "7.39%",
+    "row": 161,
+    "video": "7676515454705290526",
+    "pages": "112, 128\u2013129",
+    "hook": "Lead with the behavior. Let the case support it.",
+    "insight": "Foldable users were sharing comic-reading experiences. The strategy connected that community behavior to a practical kickstand use case.",
+    "idea": "Frame the foldable as a $2k comic book and let the absurdly specific use case make the product story feel native to TikTok.",
+    "execution": "Reveal the comic on the inner display, turn the phone around to show the kickstand, then demonstrate page flips and interactive dialogue bubbles.",
+    "learning": "This post had the highest recorded engagement rate in the selection: 7.39%. It is a promising signal for behavior-led concepts that make an accessory part of a story people already care about.",
+    "frames": [
+      [
+        "comic-1",
+        "Open on the comic"
+      ],
+      [
+        "comic-3",
+        "Reveal the support"
+      ],
+      [
+        "comic-5",
+        "Set up the reading"
+      ],
+      [
+        "comic-7",
+        "Show the interaction"
+      ]
+    ]
+  }
+]
