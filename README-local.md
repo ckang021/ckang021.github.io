@@ -16,7 +16,7 @@ Open http://127.0.0.1:8765/marketing/ in Chrome. Keep the server running while r
 ## Changes
 
 - Replaced the Marketing coming-soon page with a portfolio using the existing palette and serif/monospace typography.
-- Added seven dedicated case studies, category filters, keyboard-accessible storyboard enlargement, and click-to-load TikTok players with direct post links.
+- Added ten dedicated case studies, category filters, keyboard-accessible storyboard enlargement, and click-to-load TikTok players with direct post links.
 - Scoped new styling to the marketing pages. Existing photography, About, Apps, and Resume pages are retained.
 
 ## Content provenance
@@ -34,9 +34,14 @@ Metrics: `Spigen MKT - 2026 cLab - Weekly KPI Tracker`, spreadsheet `1uodz6f3uUR
 | black is back | 175 | 95,174 | 4,317 | 4.54% |
 | mac mini mount unboxing | 168 | 79,633 | 2,597 | 3.26% |
 | flip 8 unboxing | 150 | 36,561 | 2,846 | 7.78% |
+| choose your next color (photo) | 179 | 63,607 | 1,063 | 1.67% |
+| Band Organizer Unboxing | 121 | 55,541 | 1,550 | 2.79% |
+| naming confusion (photo) | 137 | 50,006 | 1,895 | 3.79% |
 
-The selected rows are 126, 131, 135, 161, 175, 168, and 150. The tracker credits Chris in column M (Ideator). Columns O and Q contain the weekly plays and engagement figures. Column S contains their ratio. The seven-post total is 760,292 plays and 33,184 engagements, yielding a weighted rate of 4.36%. These are recorded weekly snapshots, not lifetime totals, unique audience, revenue, or causal evidence. TikTok URLs were recovered from the tracker’s content hyperlinks in column N. Planning dates may differ from reporting weeks.
+The selected rows are 126, 131, 135, 161, 175, 168, and 150. The tracker credits Chris in column M (Ideator). Columns O and Q contain the weekly plays and engagement figures. Column S contains their ratio. The ten-post total is 929,446 combined video plays/photo impressions and 37,692 engagements, yielding a weighted rate of 4.06%. Photo posts use direct carousel links instead of video players. These are recorded weekly snapshots, not lifetime totals, unique audience, revenue, or causal evidence. TikTok URLs were recovered from the tracker’s content hyperlinks in column N. Planning dates may differ from reporting weeks.
 
 The full source PDF and tracker were not copied into the public site folder. TikTok players require network access and are loaded only on request. The inherited Google Font also requires network access; a serif fallback is provided.
 
 Measurement and source notes are retained here for maintenance; they are omitted from the portfolio pages.
+
+Additional creative briefs: Band Organizer pages 65–66; Naming Confusion pages 108, 113–114; Choose Your Next Color pages 176, 215–216. Additional selected tracker rows: 179, 121, 137.

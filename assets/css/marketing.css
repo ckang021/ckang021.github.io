@@ -130,3 +130,13 @@
 .card-art.black,.case-feature.black { background: #d7d1e5; }
 .card-art.mini,.case-feature.mini { background: #d6dcd8; }
 .card-art.flip,.case-feature.flip { background: #d2dbe4; }
+.card-art.color,.case-feature.color { background: #e2d5d6; }
+.card-art.organizer,.case-feature.organizer { background: #d8dfd4; }
+.card-art.naming,.case-feature.naming { background: #d1d9e3; }
+.card-art.naming img { object-fit: contain; box-shadow: none; }
+.case-feature.naming img { width: 44%; max-width: 44%; object-fit: contain; box-shadow: none; }
+.storyboard-grid.two-frames { grid-template-columns: repeat(2,minmax(0,1fr)); }
+.naming-study .frame-button img { aspect-ratio: 4 / 3; object-fit: contain; }
+.carousel-preview { padding: 28px; background: var(--surface); text-align: center; }
+.carousel-preview img { width: auto; max-width: 100%; max-height: 420px; margin: 0 auto; }
+.carousel-preview p { margin: 16px auto 4px; font: 14px var(--mono); color: var(--muted); }

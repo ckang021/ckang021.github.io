@@ -231,7 +231,7 @@
     "insight": "The launch brief treats the new foldable as the starting point for a wider accessory story, pairing the device reveal with protection, MagFit accessories, and charging.",
     "idea": "Build a tactile unboxing that moves from the new phone to a complete everyday setup. Use sound and transitions to connect each reveal.",
     "execution": "Open with the device box and seal removal, then introduce detail shots and button ASMR. Apply screen and camera protection, reveal the hinge protection, transition through cases, and finish with accessories and charging.",
-    "learning": "The post recorded 36,561 plays and 2,846 engagements. Its 7.78% engagement rate is the highest among these seven selected posts, making it a strong example of engagement even at a smaller reach.",
+    "learning": "The post recorded 36,561 plays and 2,846 engagements. Its 7.78% engagement rate is the highest among these ten selected posts, making it a strong example of engagement even at a smaller reach.",
     "frames": [
       [
         "flip-1",
@@ -248,6 +248,109 @@
       [
         "flip-9",
         "Complete the accessory setup"
+      ]
+    ]
+  },
+  {
+    "id": "choose-your-color",
+    "key": "color",
+    "title": "Your color. Your character.",
+    "name": "choose your next color",
+    "category": "Community & culture",
+    "plays": 63607,
+    "engagement": 1063,
+    "rate": "1.67%",
+    "row": 179,
+    "video": "7686538926495976734",
+    "mediaType": "photo",
+    "pages": "176, 215\u2013216",
+    "hook": "Make a color choice feel personal.",
+    "insight": "The brief frames a new phone color as more than a specification: a choice people can connect to their own personality and debate with friends.",
+    "idea": "Give each color a recognizable persona. Invite viewers to find themselves in the carousel and choose the one that fits.",
+    "execution": "Introduce the color lineup, then pair each phone with short personality cues: the Burgundy early adopter, Glacier Blue color analyst, Deep Black believer, and Silver Apple purist. Keep the devices and cases visible within the joke.",
+    "learning": "The carousel recorded 63,607 impressions and 1,063 engagements. Its strength in this selection is reach, adding a photo-led example of a personality-based launch conversation.",
+    "frames": [
+      [
+        "color-1",
+        "The early adopter"
+      ],
+      [
+        "color-2",
+        "The color analyst"
+      ],
+      [
+        "color-3",
+        "The black iPhone believer"
+      ],
+      [
+        "color-4",
+        "The Apple purist"
+      ]
+    ]
+  },
+  {
+    "id": "band-organizer",
+    "key": "organizer",
+    "title": "One watch. Too many bands.",
+    "name": "Band Organizer Unboxing",
+    "category": "Product stories",
+    "plays": 55541,
+    "engagement": 1550,
+    "rate": "2.79%",
+    "row": 121,
+    "video": "7655365892129213726",
+    "mediaType": "video",
+    "pages": "65\u201366",
+    "hook": "Turn a background detail into the main story.",
+    "insight": "Viewers had asked about the organizer when it appeared in earlier watch content. The brief uses that curiosity as the starting point for a dedicated product story.",
+    "idea": "Answer a real audience question with a satisfying transformation: scattered bands become an organized watch-and-charging setup.",
+    "execution": "Open on a messy desk covered in watch bands, bring in the organizer, and unbox it with ASMR. Reveal the drawer, arrange the collection, install the charger, and demonstrate choosing a band before returning the watch to its stand.",
+    "learning": "The post recorded 55,541 plays and 1,550 engagements. It provides a concrete example of turning an existing audience question into a focused product demonstration.",
+    "frames": [
+      [
+        "organizer-1",
+        "Introduce the unboxing"
+      ],
+      [
+        "organizer-3",
+        "Reveal the storage"
+      ],
+      [
+        "organizer-2",
+        "Organize and charge"
+      ],
+      [
+        "organizer-5",
+        "Show the daily routine"
+      ]
+    ]
+  },
+  {
+    "id": "naming-confusion",
+    "key": "naming",
+    "title": "Wait. Which Fold is which?",
+    "name": "naming confusion",
+    "category": "Community & culture",
+    "plays": 50006,
+    "engagement": 1895,
+    "rate": "3.79%",
+    "row": 137,
+    "video": "7665390913094503710",
+    "mediaType": "photo",
+    "pages": "108, 113\u2013114",
+    "hook": "Give a confusing launch a familiar punchline.",
+    "insight": "The launch-planning brief identified confusion around the Fold lineup\u2019s names and form factors as a conversation the audience could recognize.",
+    "idea": "Use a simple comparison carousel to make that confusion the joke. Let viewers join in or explain the naming while the case lineup stays part of the visual story.",
+    "execution": "Build a three-part comparison: establish the previous Fold, introduce the familiar-looking successor, then reveal the wider model with a \u201cthen what is this?\u201d question. Keep the text short enough to follow across slides.",
+    "learning": "The carousel recorded 50,006 impressions and 1,895 engagements, with a 3.79% engagement rate. It adds an example of using a timely community question as the creative premise.",
+    "frames": [
+      [
+        "naming-1",
+        "Establish the familiar form"
+      ],
+      [
+        "naming-2",
+        "Contrast the wider model"
       ]
     ]
   }
