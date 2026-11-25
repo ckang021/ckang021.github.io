@@ -15,7 +15,7 @@
     "insight": "Everyday carry is about carrying smarter. A wallet needs to feel slim without sacrificing the things people actually take with them.",
     "idea": "Turn an exaggerated, overstuffed wallet into a compact everyday setup. Make the benefit visible before asking viewers to care about the product.",
     "execution": "Open on a bulky pocket, empty the old wallet, then rebuild the carry with the Soft Card Holder. Fast unboxing, card organization and a key attachment turn features into a simple transformation.",
-    "learning": "The strongest recorded reach in this selection came from a clear before-and-after product story. This suggests a useful direction for future carry content; the tracker does not establish what caused the result.",
+    "learning": "The strongest recorded reach in this selection came from a clear before-and-after product story. This suggests a useful direction for future carry content.",
     "frames": [
       [
         "wallet-1",
@@ -87,7 +87,7 @@
     "insight": "The research called out limited Galaxy Watch content and an opportunity to make the band and protection lineup visible to Samsung users.",
     "idea": "Move beyond a product lineup. Show how protection and different band styles fit into the rhythm of a day.",
     "execution": "Open with everyday bumps and worn protection. Replace the protector and band, then use scene changes to connect each band to an outdoor or office setting.",
-    "learning": "The tracker records 127,063 plays and 3,180 engagements. Reach was substantial within this selection, while the 2.50% rate suggests room to test a stronger conversation prompt.",
+    "learning": "The post recorded 127,063 plays and 3,180 engagements. Reach was substantial within this selection, while the 2.50% rate suggests room to test a stronger conversation prompt.",
     "frames": [
       [
         "watch-1",
@@ -123,7 +123,7 @@
     "insight": "Foldable users were sharing comic-reading experiences. The strategy connected that community behavior to a practical kickstand use case.",
     "idea": "Frame the foldable as a $2k comic book and let the absurdly specific use case make the product story feel native to TikTok.",
     "execution": "Reveal the comic on the inner display, turn the phone around to show the kickstand, then demonstrate page flips and interactive dialogue bubbles.",
-    "learning": "This post had the highest recorded engagement rate in the selection: 7.39%. It is a promising signal for behavior-led concepts that make an accessory part of a story people already care about.",
+    "learning": "This post recorded a 7.39% engagement rate, one of the strongest in the selection. It is a promising signal for behavior-led concepts that make an accessory part of a story people already care about.",
     "frames": [
       [
         "comic-1",
@@ -140,6 +140,114 @@
       [
         "comic-7",
         "Show the interaction"
+      ]
+    ]
+  },
+  {
+    "id": "black-is-back",
+    "key": "black",
+    "title": "Black is back.",
+    "name": "black is back",
+    "category": "Community & culture",
+    "plays": 95174,
+    "engagement": 4317,
+    "rate": "4.54%",
+    "row": 175,
+    "video": "7683685306750569758",
+    "pages": "207\u2013208",
+    "hook": "Turn a keynote moment into a shared reaction.",
+    "insight": "The brief identified anticipation around a dark iPhone colorway as an opportunity to join the audience\u2019s launch-day conversation.",
+    "idea": "Borrow the familiar joke of calling an album a classic after hearing one second. Translate that instant enthusiasm into a reaction to the color reveal.",
+    "execution": "Start with the keynote playing on a laptop. At the mention of dark grey, close the laptop and cut immediately to posting an excited Instagram Story. Keep the reaction quick and recognizable.",
+    "learning": "The post recorded 95,174 plays and 4,317 engagements, with a 4.54% engagement rate. It shows how a focused community reaction can earn attention alongside more detailed product stories.",
+    "frames": [
+      [
+        "black-1",
+        "Set up the instant reaction"
+      ],
+      [
+        "black-3",
+        "Close the laptop"
+      ],
+      [
+        "black-2",
+        "Commit to the reaction"
+      ],
+      [
+        "black-4",
+        "Share the excitement"
+      ]
+    ]
+  },
+  {
+    "id": "mac-mini-mount",
+    "key": "mini",
+    "title": "A small desktop. A big idea.",
+    "name": "mac mini mount unboxing",
+    "category": "Product stories",
+    "plays": 79633,
+    "engagement": 2597,
+    "rate": "3.26%",
+    "row": 168,
+    "video": "7680225824867470605",
+    "pages": "206",
+    "hook": "Make the design connection the hook.",
+    "insight": "The storyboard connects a Mac Mini enclosure to a recognizable desktop-computer silhouette, then uses installation details to make the product\u2019s role clear.",
+    "idea": "Begin with the design inspiration, then move from the separate components to a complete desk setup. Let the build explain the product.",
+    "execution": "Compare the inspiration and design, reveal the two-piece enclosure, and highlight ventilation. Install the Mac Mini, place the setup on the desk, and show access to the power button before the monitor turns on.",
+    "learning": "The post recorded 79,633 plays and 2,597 engagements, with a 3.26% engagement rate. The result offers a useful benchmark for product demonstrations that combine a recognizable design hook with a practical setup sequence.",
+    "frames": [
+      [
+        "mini-1",
+        "Introduce the design connection"
+      ],
+      [
+        "mini-2",
+        "Reveal the components"
+      ],
+      [
+        "mini-3",
+        "Show the installation"
+      ],
+      [
+        "mini-5",
+        "Bring the desk setup together"
+      ]
+    ]
+  },
+  {
+    "id": "flip-unboxing",
+    "key": "flip",
+    "title": "One flip was all it took.",
+    "name": "flip 8 unboxing",
+    "category": "Product stories",
+    "plays": 36561,
+    "engagement": 2846,
+    "rate": "7.78%",
+    "row": 150,
+    "video": "7671679544541203742",
+    "pages": "121\u2013123",
+    "hook": "Make every reveal earn the next one.",
+    "insight": "The launch brief treats the new foldable as the starting point for a wider accessory story, pairing the device reveal with protection, MagFit accessories, and charging.",
+    "idea": "Build a tactile unboxing that moves from the new phone to a complete everyday setup. Use sound and transitions to connect each reveal.",
+    "execution": "Open with the device box and seal removal, then introduce detail shots and button ASMR. Apply screen and camera protection, reveal the hinge protection, transition through cases, and finish with accessories and charging.",
+    "learning": "The post recorded 36,561 plays and 2,846 engagements. Its 7.78% engagement rate is the highest among these seven selected posts, making it a strong example of engagement even at a smaller reach.",
+    "frames": [
+      [
+        "flip-1",
+        "Lead with the device reveal"
+      ],
+      [
+        "flip-5",
+        "Unbox the new phone"
+      ],
+      [
+        "flip-8",
+        "Introduce the protection"
+      ],
+      [
+        "flip-9",
+        "Complete the accessory setup"
       ]
     ]
   }

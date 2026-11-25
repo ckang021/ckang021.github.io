@@ -127,3 +127,6 @@
  .portfolio-contact .portfolio-link + .portfolio-link { margin-left: 18px; }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .card-art img { transition: none; } }
+.card-art.black,.case-feature.black { background: #d7d1e5; }
+.card-art.mini,.case-feature.mini { background: #d6dcd8; }
+.card-art.flip,.case-feature.flip { background: #d2dbe4; }
